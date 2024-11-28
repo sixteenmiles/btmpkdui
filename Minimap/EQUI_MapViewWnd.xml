@@ -329,13 +329,15 @@
     <ScreenID>MVW_PanResetButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>225</X>
+      <X>228</X>
       <Y>15</Y>
     </Location>
     <Size>
       <CX>12</CX>
       <CY>12</CY>
     </Size>
+    <Font>1</Font>
+    <Text>R</Text>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -455,18 +457,17 @@
     <ScreenID>MVW_ZFilterButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>0</X>
-      <Y>262</Y>
+      <X>214</X>
+      <Y>15</Y>
     </Location>
     <Size>
-      <CX>63</CX>
-      <CY>40</CY>
+      <CX>12</CX>
+      <CY>12</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>true</Style_Checkbox>
-    <Text>Height Filter</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -474,7 +475,8 @@
     </TextColor>
     <TooltipReference>Toggle filtering map lines based on your position and the high and low values.</TooltipReference>
     <Template>BDT_Normal</Template>
-    <Font>3</Font>
+    <Font>1</Font>
+	<Text>H</Text>
   </Button>
   
   <Button item="MVW_Layer3ActiveButton">
@@ -1070,6 +1072,7 @@
     <Pieces>MVW_Layer1Button</Pieces>
     <Pieces>MVW_Layer2Button</Pieces>
     <Pieces>MVW_Layer3Button</Pieces>
+	<Pieces>MVW_ZFilterButton</Pieces>
     <!--<Pieces>Screen:MVW_MapSearchScreen</Pieces>-->
     <!--<Pieces>Screen:MVW_MapCurrentZoneScreen</Pieces>-->
   </Page>
