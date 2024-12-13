@@ -30,6 +30,7 @@ The pet window can handle displaying 3 pets simultaneously. Designed to be trans
 
 - Doesn't currently handle a 4th pet from Dragon Tooth.
 - Pet buffs don't display properly.
+- The purple colour is subject to change. I suck at choosing good colours.
 
 **If you want the 3-pet window but don't want it with the btmpkdUI style then download the file in the Pet Window (Three Pets) folder and use that.**
 
