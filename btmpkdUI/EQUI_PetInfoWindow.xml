@@ -1983,12 +1983,12 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>59</EQType>
     <GaugeDrawTemplate>
-      <Background>A_GaugeBackground</Background>
-      <Fill>A_GaugeFill</Fill>
-      <!--<Lines>A_GaugeLines</Lines>
-      <LinesFill>A_GaugeLinesFill</LinesFill>-->
-      <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <!--<Lines>btmpkd_GaugeLines</Lines>
+      <LinesFill>btmpkd_GaugeLinesFill</LinesFill>-->
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
     </GaugeDrawTemplate>
     <Font>2</Font>
   </Gauge>
@@ -2030,12 +2030,12 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>60</EQType>
     <GaugeDrawTemplate>
-      <Background>A_GaugeBackground</Background>
-      <Fill>A_GaugeFill</Fill>
-      <!--<Lines>A_GaugeLines</Lines>
-      <LinesFill>A_GaugeLinesFill</LinesFill>-->
-      <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <!--<Lines>btmpkd_GaugeLines</Lines>
+      <LinesFill>btmpkd_GaugeLinesFill</LinesFill>-->
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
     </GaugeDrawTemplate>
     <Font>2</Font>
   </Gauge>
@@ -2077,12 +2077,12 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>61</EQType>
     <GaugeDrawTemplate>
-      <Background>A_GaugeBackground</Background>
-      <Fill>A_GaugeFill</Fill>
-      <!--<Lines>A_GaugeLines</Lines>
-      <LinesFill>A_GaugeLinesFill</LinesFill>-->
-      <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <!--<Lines>btmpkd_GaugeLines</Lines>
+      <LinesFill>btmpkd_GaugeLinesFill</LinesFill>-->
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
     </GaugeDrawTemplate>
     <Font>2</Font>
   </Gauge>
@@ -2546,7 +2546,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>True</Style_Transparent>
     <Text>Pet Info</Text>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

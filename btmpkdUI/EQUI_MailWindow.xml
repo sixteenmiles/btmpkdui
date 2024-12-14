@@ -12,7 +12,7 @@
 	-->
   <Listbox item="MAIL_InboxList">
     <ScreenID>InboxList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>false</AutoStretch>
     <Location>
       <X>0</X>
@@ -47,7 +47,7 @@
   </Listbox>
   <STMLbox item="MAIL_Body">
     <ScreenID>Body</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>false</AutoStretch>
     <Location>
       <X>0</X>
@@ -68,7 +68,7 @@
   </STMLbox>
   <VerticalLayoutBox item="MAIL_InboxLayout">
     <ScreenID>InboxLayout</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <TopAnchorOffset>24</TopAnchorOffset>
@@ -287,7 +287,7 @@
 	-->
   <Listbox item="MAIL_TrashList">
     <ScreenID>TrashList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>false</AutoStretch>
     <Location>
       <X>0</X>
@@ -322,7 +322,7 @@
   </Listbox>
   <STMLbox item="MAIL_TrashBody">
     <ScreenID>TrashBody</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>false</AutoStretch>
     <Location>
       <X>0</X>
@@ -343,7 +343,7 @@
   </STMLbox>
   <VerticalLayoutBox item="MAIL_TrashLayout">
     <ScreenID>TrashLayout</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <TopAnchorOffset>24</TopAnchorOffset>
@@ -598,7 +598,7 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <ListHeight>80</ListHeight>
     <Button>BDT_Combo</Button>
     <Style_Border>true</Style_Border>
@@ -699,7 +699,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>This is the mail window.</TooltipReference>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

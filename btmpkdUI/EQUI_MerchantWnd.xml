@@ -26,7 +26,7 @@
   </Label>
   <Listbox item="MW_ItemList">
     <ScreenID>ItemList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -80,7 +80,7 @@
   </Listbox>
   <Listbox item="MW_ItemListRecovery">
     <ScreenID>MW_ItemListRecovery</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -119,7 +119,7 @@
   </Listbox>
   <Listbox item="MW_ItemListMail">
     <ScreenID>MW_ItemListMail</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -364,7 +364,7 @@
   </Label>
   <Editbox item="MW_Send_To_Edit">
     <ScreenID>MW_Send_To_Edit</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>false</TopAnchorToTop>
@@ -405,7 +405,7 @@
   </Label>
   <Editbox item="MW_Note_Edit">
     <ScreenID>MW_Note_Edit</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>false</TopAnchorToTop>
@@ -649,7 +649,7 @@
     </Size>
     <Text>Merchant</Text>
     <Style_Transparent>false</Style_Transparent>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

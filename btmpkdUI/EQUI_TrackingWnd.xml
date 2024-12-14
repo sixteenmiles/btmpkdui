@@ -254,7 +254,7 @@
   </Button>
   <Listbox item="TRW_TrackingList">
     <ScreenID>TRW_TrackingList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <TopAnchorOffset>36</TopAnchorOffset>
@@ -292,7 +292,7 @@
   </Label>
   <Combobox item="TRW_TrackSortCombobox">
     <ScreenID>TRW_TrackSortCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>3</LeftAnchorOffset>
     <TopAnchorOffset>178</TopAnchorOffset>
@@ -329,7 +329,7 @@
   </Label>
   <Combobox item="TRW_TrackPlayersCombobox">
     <ScreenID>TRW_TrackPlayersCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>3</LeftAnchorOffset>
     <TopAnchorOffset>135</TopAnchorOffset>
@@ -524,7 +524,7 @@
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <Text>Tracking Window</Text>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>true</Style_Minimizebox>

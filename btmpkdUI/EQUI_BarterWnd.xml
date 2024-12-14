@@ -25,7 +25,7 @@
   </Label>
   <Listbox item="BTR_ItemSearchList">
     <ScreenID>ItemSearchList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>
@@ -54,7 +54,7 @@
   </Listbox>
   <Editbox item="BTR_ItemSearchEdit">
     <ScreenID>ItemSearchEdit</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
     <RelativePosition>true</RelativePosition>
@@ -111,7 +111,7 @@
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -169,7 +169,7 @@
   </Button>
   <Listbox item="BTR_InventoryList">
     <ScreenID>InventoryList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>
@@ -270,7 +270,7 @@
   </Label>
   <Listbox item="BTR_CompensationList">
     <ScreenID>CompensationList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>
@@ -476,7 +476,7 @@
   </Label>
   <Editbox item="BTR_CountEdit">
     <ScreenID>CountEdit</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
     <RelativePosition>true</RelativePosition>
@@ -533,7 +533,7 @@
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -579,7 +579,7 @@
   </Label>
   <Listbox item="BTR_BuyLineList">
     <ScreenID>BuyLineList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>
@@ -678,7 +678,7 @@
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -691,7 +691,7 @@
   </Screen>
   <STMLbox item="BTR_StatusText">
     <ScreenID>StatusText</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>
@@ -767,7 +767,7 @@
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -779,7 +779,7 @@
   </Screen>
   <VerticalLayoutBox item="BTR_StatusLayout">
     <ScreenID>StatusLayout</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <TopAnchorOffset>0</TopAnchorOffset>
@@ -810,7 +810,7 @@
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -820,7 +820,7 @@
   </Screen>
   <HorizontalLayoutBox item="BTR_Layout">
     <ScreenID>Layout</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <TopAnchorOffset>0</TopAnchorOffset>
@@ -862,7 +862,7 @@
   </Label>
   <Editbox item="BTR_WelcomeEdit">
     <ScreenID>WelcomeEdit</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
     <RelativePosition>true</RelativePosition>
@@ -967,7 +967,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>This is the window to setup/run Barter Mode.</TooltipReference>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

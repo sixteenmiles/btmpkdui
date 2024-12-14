@@ -3,7 +3,7 @@
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Listbox item="TRNW_SkillList">
     <ScreenID>SkillList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Location>
       <X>2</X>
       <Y>2</Y>
@@ -381,7 +381,7 @@
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <Text>Training Window</Text>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

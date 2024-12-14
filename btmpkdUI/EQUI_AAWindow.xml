@@ -274,7 +274,7 @@
     <GaugeDrawTemplate>
       <Background>A_MiniGaugeBackground</Background>
       <Fill>A_MiniGaugeFill</Fill>
-      <!--<LinesFill>A_GaugeLinesFill</LinesFill>-->
+      <!--<LinesFill>btmpkd_GaugeLinesFill</LinesFill>-->
       <EndCapLeft>A_MiniGaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_MiniGaugeEndCapRight</EndCapRight>
     </GaugeDrawTemplate>
@@ -435,7 +435,7 @@
   </Label>
   <STMLbox item="AAW_Description">
     <ScreenID>Description</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_VScroll>true</Style_VScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -452,7 +452,7 @@
   </STMLbox>
   <Listbox item="AAW_GeneralList">
     <ScreenID>List1</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -485,7 +485,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference />
-    <DrawTemplate>WDT_Def</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TabText>General</TabText>
     <TabTextColor>
       <R>255</R>
@@ -510,7 +510,7 @@
   </Page>
   <Listbox item="AAW_ArchList">
     <ScreenID>List2</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -543,7 +543,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference />
-    <DrawTemplate>WDT_Def</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TabText>Archetype</TabText>
     <TabTextColor>
       <R>255</R>
@@ -568,7 +568,7 @@
   </Page>
   <Listbox item="AAW_ClassList">
     <ScreenID>List3</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -601,7 +601,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference />
-    <DrawTemplate>WDT_Def</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TabText>Class</TabText>
     <TabTextColor>
       <R>255</R>
@@ -626,7 +626,7 @@
   </Page>
   <Listbox item="AAW_SpecialList">
     <ScreenID>List4</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -659,7 +659,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference />
-    <DrawTemplate>WDT_Def</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TabText>Special</TabText>
     <TabTextColor>
       <R>255</R>
@@ -693,8 +693,8 @@
       <CX>480</CX>
       <CY>320</CY>
     </Size>
-    <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
-    <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+    <TabBorderTemplate>StandardTabBorder</TabBorderTemplate>
+    <PageBorderTemplate>StandardPageBorder</PageBorderTemplate>
     <Pages>AAW_GeneralPage</Pages>
     <Pages>AAW_ArchetypePage</Pages>
     <Pages>AAW_ClassPage</Pages>
@@ -768,7 +768,7 @@
   </Button>
   <Combobox item="AAW_PassiveFilter">
     <ScreenID>PassiveFilter</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Location>
       <X>95</X>
       <Y>442</Y>
@@ -783,7 +783,7 @@
   </Combobox>
   <Combobox item="AAW_ExpansionFilter">
     <ScreenID>ExpansionFilter</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Location>
       <X>195</X>
       <Y>442</Y>
@@ -798,7 +798,7 @@
   </Combobox>
   <Combobox item="AAW_CatigoryFilter">
     <ScreenID>CatigoryFilter</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Location>
       <X>325</X>
       <Y>442</Y>
@@ -851,7 +851,7 @@
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <Text>Alternate Advancement Window</Text>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

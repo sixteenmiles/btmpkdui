@@ -3,7 +3,7 @@
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Listbox item="CSSW_SkillSelectorList">
     <ScreenID>CSSW_SkillSelectorList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -48,7 +48,7 @@
   </Listbox>
   <STMLbox item="CSSW_SkillDescriptionStmlBox">
     <ScreenID>CSSW_SkillDescriptionStmlBox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <RightAnchorToLeft>false</RightAnchorToLeft>
@@ -98,7 +98,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Combat Skills</Text>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>true</Style_Minimizebox>

@@ -8,7 +8,7 @@
 	-->
   <Listbox item="MAIL_AB_List">
     <ScreenID>NameList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>false</AutoStretch>
     <Location>
       <X>0</X>
@@ -56,7 +56,7 @@
     <ScreenID>NameField</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Border>true</Style_Border>
     <LeftAnchorOffset>75</LeftAnchorOffset>
     <RightAnchorOffset>65</RightAnchorOffset>
@@ -143,7 +143,7 @@
     <ScreenID>FieldOfAddresses</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Border>true</Style_Border>
     <LeftAnchorOffset>75</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
@@ -186,7 +186,7 @@
     <ScreenID>NoteField</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Border>true</Style_Border>
     <LeftAnchorOffset>75</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
@@ -393,7 +393,7 @@
     </Size>
     <Text>Address Book</Text>
     <Style_Transparent>false</Style_Transparent>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

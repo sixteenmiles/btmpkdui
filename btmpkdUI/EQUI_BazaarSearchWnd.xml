@@ -62,7 +62,7 @@
   </Button>
   <Listbox item="BZR_ItemList">
     <ScreenID>BZR_ItemList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TooltipReference>Right click an item to inspect the item. Right click on the player name to locate them.</TooltipReference>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>145</LeftAnchorOffset>
@@ -303,7 +303,7 @@
   </Label>
   <Editbox item="BZR_ItemNameInput">
     <ScreenID>BZR_ItemNameInput</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <TooltipReference>Search by partial item name.</TooltipReference>
     <Style_Border>true</Style_Border>
@@ -345,7 +345,7 @@
   </Label>
   <Editbox item="BZR_MaxLevelInput">
     <ScreenID>BZR_MaxLevelInput</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <TooltipReference>Enter a level for which items having a recommended or required level above it should not show.</TooltipReference>
     <Style_Border>true</Style_Border>
@@ -365,7 +365,7 @@
   </Editbox>
   <Editbox item="BZR_MinLevelInput">
     <ScreenID>BZR_MinLevelInput</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <TooltipReference>Enter a level for which items having a recommended or required level below it should not show.</TooltipReference>
     <Style_Border>true</Style_Border>
@@ -429,7 +429,7 @@
   </Label>
   <Editbox item="BZR_MaxPriceInput">
     <ScreenID>BZR_MaxPriceInput</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <TooltipReference>Enter a price in platinum that is greater than the value in the Min Price edit window.</TooltipReference>
     <Style_Border>true</Style_Border>
@@ -449,7 +449,7 @@
   </Editbox>
   <Editbox item="BZR_MinPriceInput">
     <ScreenID>BZR_MinPriceInput</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <TooltipReference>Enter a price in platinum that is less than the value in the Max Price edit window.</TooltipReference>
     <Style_Border>true</Style_Border>
@@ -513,7 +513,7 @@
   </Label>
   <Combobox item="BZR_PlayersCombobox">
     <ScreenID>BZR_PlayersCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TooltipReference>List all items for sale by selected player.</TooltipReference>
     <Location>
       <X>5</X>
@@ -556,7 +556,7 @@
   </Label>
   <Combobox item="BZR_ItemSlotCombobox">
     <ScreenID>BZR_ItemSlotCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TooltipReference>List all items that can be used in this slot.</TooltipReference>
     <Location>
       <X>5</X>
@@ -599,7 +599,7 @@
   </Label>
   <Combobox item="BZR_StatSlotCombobox">
     <ScreenID>BZR_StatSlotCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TooltipReference>List all items that have this statistic.</TooltipReference>
     <Location>
       <X>5</X>
@@ -642,7 +642,7 @@
   </Label>
   <Combobox item="BZR_RaceSlotCombobox">
     <ScreenID>BZR_RaceSlotCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TooltipReference>List all items that can be worn by this race.</TooltipReference>
     <Location>
       <X>5</X>
@@ -685,7 +685,7 @@
   </Label>
   <Combobox item="BZR_ClassSlotCombobox">
     <ScreenID>BZR_ClassSlotCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TooltipReference>List all items that can be worn by this class.</TooltipReference>
     <Location>
       <X>5</X>
@@ -728,7 +728,7 @@
   </Label>
   <Combobox item="BZR_ItemTypeCombobox">
     <ScreenID>BZR_ItemTypeCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TooltipReference>List all items of this type.</TooltipReference>
     <Location>
       <X>5</X>
@@ -771,7 +771,7 @@
   </Label>
   <Editbox item="BZR_MaxResultsPerTraderInput">
     <ScreenID>BZR_MaxResultsPerTraderInput</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TooltipReference>How many results in a search can belong to a single trader.</TooltipReference>
     <Location>
       <X>5</X>
@@ -833,7 +833,7 @@
   </Label>
   <Combobox item="BZR_ItemPrestigeCombobox">
     <ScreenID>BZR_ItemPrestigeCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TooltipReference>Filter based on item Prestige status.</TooltipReference>
     <Location>
       <X>5</X>
@@ -876,7 +876,7 @@
   </Label>
   <Combobox item="BZR_ItemAugmentCombobox">
     <ScreenID>BZR_ItemAugmentCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TooltipReference>Filter based on item augment slot.</TooltipReference>
     <Location>
       <X>5</X>
@@ -909,7 +909,7 @@
     <Text>Bazaar Search Window</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>true</Style_Minimizebox>

@@ -249,7 +249,7 @@
   </Button>
   <Listbox item="BW_WeaponSetList">
     <ScreenID>WeaponSetList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Location>
       <X>50</X>
       <Y>5</Y>
@@ -280,7 +280,7 @@
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <Text>Bandolier</Text>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

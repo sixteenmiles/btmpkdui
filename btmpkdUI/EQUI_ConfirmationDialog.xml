@@ -109,7 +109,7 @@
   </StaticText>
   <STMLbox item="CD_TextOutput">
     <ScreenID>TextOutput</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>
@@ -137,7 +137,7 @@
     </Size>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>

@@ -29,12 +29,12 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>6</EQType>
     <GaugeDrawTemplate>
-      <Background>A_GaugeBackground</Background>
-      <Fill>A_GaugeFill</Fill>
-      <!--<Lines>A_GaugeLines</Lines>
-      <LinesFill>A_GaugeLinesFill</LinesFill>-->
-      <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <!--<Lines>btmpkd_GaugeLines</Lines>
+      <LinesFill>btmpkd_GaugeLinesFill</LinesFill>-->
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
     </GaugeDrawTemplate>
     <TopAnchorOffset>0</TopAnchorOffset>
     <BottomAnchorOffset>35</BottomAnchorOffset>
@@ -280,12 +280,12 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>27</EQType>
     <GaugeDrawTemplate>
-      <Background>A_GaugeBackground</Background>
-      <Fill>A_GaugeFill</Fill>
-      <!--<Lines>A_GaugeLines</Lines>
-      <LinesFill>A_GaugeLinesFill</LinesFill>-->
-      <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <!--<Lines>btmpkd_GaugeLines</Lines>
+      <LinesFill>btmpkd_GaugeLinesFill</LinesFill>-->
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
     </GaugeDrawTemplate>
     <TopAnchorOffset>0</TopAnchorOffset>
     <BottomAnchorOffset>0</BottomAnchorOffset>
@@ -1449,7 +1449,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>true</Style_Transparent>
     <TooltipReference>Buffs on your target will show here</TooltipReference>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>

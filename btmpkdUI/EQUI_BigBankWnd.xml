@@ -718,7 +718,7 @@
     <Text>Bank</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

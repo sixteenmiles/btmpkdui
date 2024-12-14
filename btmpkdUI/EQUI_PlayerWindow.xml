@@ -80,12 +80,10 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>1</EQType>
     <GaugeDrawTemplate>
-      <Background>A_GaugeBackground</Background>
-      <Fill>A_GaugeFill</Fill>
-      <!--<Lines>A_GaugeLines</Lines>
-	  <LinesFill>A_GaugeLinesFill</LinesFill>-->
-      <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
     </GaugeDrawTemplate>
   </Gauge>
   <Gauge item="Pet_HP">
@@ -131,12 +129,10 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>2</EQType>
     <GaugeDrawTemplate>
-      <Background>A_GaugeBackgroundSmall</Background>
-      <Fill>A_GaugeFillSmall</Fill>
-      <!--<Lines>A_GaugeLines</Lines>
-	  <LinesFill>A_GaugeLinesFill</LinesFill>-->
-      <EndCapLeft>A_GaugeEndCapLeftSmall</EndCapLeft>
-      <EndCapRight>A_GaugeEndCapRightSmall</EndCapRight>
+      <Background>btmpkd_GaugeBackgroundSmall</Background>
+      <Fill>btmpkd_GaugeFillSmall</Fill>
+      <EndCapLeft>btmpkd_GaugeEndCapLeftSmall</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRightSmall</EndCapRight>
     </GaugeDrawTemplate>
   </Gauge>
   <Gauge item="Player_Fatigue">
@@ -169,12 +165,12 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>3</EQType>
     <GaugeDrawTemplate>
-      <Background>A_GaugeBackgroundSmall</Background>
-      <Fill>A_GaugeFillSmall</Fill>
-      <!--<Lines>A_GaugeLines</Lines>
-	  <LinesFill>A_GaugeLinesFill</LinesFill>-->
-      <EndCapLeft>A_GaugeEndCapLeftSmall</EndCapLeft>
-      <EndCapRight>A_GaugeEndCapRightSmall</EndCapRight>
+      <Background>btmpkd_GaugeBackgroundSmall</Background>
+      <Fill>btmpkd_GaugeFillSmall</Fill>
+      <!--<Lines>btmpkd_GaugeLines</Lines>
+	  <LinesFill>btmpkd_GaugeLinesFill</LinesFill>-->
+      <EndCapLeft>btmpkd_GaugeEndCapLeftSmall</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRightSmall</EndCapRight>
     </GaugeDrawTemplate>
   </Gauge>
   <Gauge item="Player_CombatTimer">
@@ -201,12 +197,12 @@
     </FillTint>
     <EQType>7</EQType>
     <GaugeDrawTemplate>
-      <Background>A_GaugeBackgroundSmall</Background>
-      <Fill>A_GaugeFillSmall</Fill>
-      <!--<Lines>A_GaugeLines</Lines>
-	  <LinesFill>A_GaugeLinesFill</LinesFill>-->
-      <EndCapLeft>A_GaugeEndCapLeftSmall</EndCapLeft>
-      <EndCapRight>A_GaugeEndCapRightSmall</EndCapRight>
+      <Background>btmpkd_GaugeBackgroundSmall</Background>
+      <Fill>btmpkd_GaugeFillSmall</Fill>
+      <!--<Lines>btmpkd_GaugeLines</Lines>
+	  <LinesFill>btmpkd_GaugeLinesFill</LinesFill>-->
+      <EndCapLeft>btmpkd_GaugeEndCapLeftSmall</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRightSmall</EndCapRight>
     </GaugeDrawTemplate>
     <Size>
       <CX>200</CX>

@@ -1002,8 +1002,8 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
-    <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+    <TabBorderTemplate>StandardTabBorder</TabBorderTemplate>
+    <PageBorderTemplate>StandardPageBorder</PageBorderTemplate>
     <Pages>Page:MapPage</Pages>
   </TabBox>
   <!-- Main Window -->

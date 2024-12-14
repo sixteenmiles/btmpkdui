@@ -10,7 +10,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -25,7 +25,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -40,7 +40,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -55,7 +55,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -70,7 +70,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -85,7 +85,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -100,7 +100,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -115,7 +115,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -130,7 +130,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -145,7 +145,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -160,7 +160,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -175,7 +175,7 @@
     </Size>
     <SpellGemDrawTemplate>
       <Holder>A_btmpkdBox</Holder>
-      <Background>BlueIconBackground</Background>
+      <Background>BlackPixel</Background>
       <Highlight>A_SpellGemHighlight</Highlight>
     </SpellGemDrawTemplate>
     <SpellIconOffsetX>4</SpellIconOffsetX>
@@ -355,7 +355,7 @@
     <Text>Spells</Text>
     <Style_Transparent>true</Style_Transparent>
     <TooltipReference>Allows you to cast your memorized spells</TooltipReference>
-    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>

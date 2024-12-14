@@ -48,7 +48,7 @@
   </Button>
   <Listbox item="BTRSRCH_InventoryList">
     <ScreenID>InventoryList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>
@@ -82,7 +82,7 @@
   </Listbox>
   <Editbox item="BTRSRCH_ItemSearchEdit">
     <ScreenID>ItemSearchEdit</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
     <RelativePosition>true</RelativePosition>
@@ -104,7 +104,7 @@
   </Editbox>
   <Combobox item="BTRSRCH_PlayerCombo">
     <ScreenID>PlayerCombo</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
     <RelativePosition>true</RelativePosition>
@@ -164,7 +164,7 @@
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -230,7 +230,7 @@
   </Button>
   <Listbox item="BTRSRCH_BuyLineList">
     <ScreenID>BuyLineList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
@@ -286,7 +286,7 @@
     <MinVSize>60</MinVSize>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -380,7 +380,7 @@
   </Button>
   <Listbox item="BTRSRCH_DetailsList">
     <ScreenID>DetailsList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
@@ -427,7 +427,7 @@
     <MinVSize>60</MinVSize>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -440,7 +440,7 @@
   </Screen>
   <VerticalLayoutBox item="BTRSRCH_BuyLineLayout">
     <ScreenID>BuyLineLayout</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <TopAnchorOffset>0</TopAnchorOffset>
@@ -563,7 +563,7 @@
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -577,7 +577,7 @@
   </Screen>
   <HorizontalLayoutBox item="BTRSRCH_Layout">
     <ScreenID>Layout</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <TopAnchorOffset>0</TopAnchorOffset>
@@ -629,7 +629,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>This window allows you to search for a Buyer for your items.</TooltipReference>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

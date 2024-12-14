@@ -25,7 +25,7 @@
   </Label>
   <Listbox item="BTRMERCH_BuyLineList">
     <ScreenID>BuyLineList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>false</AutoStretch>
     <Location>
@@ -62,7 +62,7 @@
   </Listbox>
   <Listbox item="BTRMERCH_DetailList">
     <ScreenID>DetailList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>false</AutoStretch>
     <Location>
@@ -95,7 +95,7 @@
   </Listbox>
   <VerticalLayoutBox item="BTRMERCH_BuyLineLayout">
     <ScreenID>BuyLineLayout</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>
     <TopAnchorOffset>22</TopAnchorOffset>
@@ -151,7 +151,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>This is how you sell to a Barter Buyer.</TooltipReference>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

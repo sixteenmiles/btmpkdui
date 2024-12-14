@@ -119,7 +119,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -169,7 +169,7 @@
     <Style_Checkbox>false</Style_Checkbox>
     <RadioGroup />
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -219,7 +219,7 @@
     <Style_Checkbox>false</Style_Checkbox>
     <RadioGroup />
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -269,7 +269,7 @@
     <Style_Checkbox>false</Style_Checkbox>
     <RadioGroup />
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -319,7 +319,7 @@
     <TooltipReference />
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -368,7 +368,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -418,7 +418,7 @@
     <TooltipReference />
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -467,7 +467,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -516,7 +516,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -565,7 +565,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -614,7 +614,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -663,7 +663,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -712,7 +712,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -761,7 +761,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -810,7 +810,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -859,7 +859,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -908,7 +908,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -957,7 +957,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1006,7 +1006,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1055,7 +1055,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1104,7 +1104,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1153,7 +1153,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1202,7 +1202,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1251,7 +1251,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>RedIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1300,7 +1300,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1349,7 +1349,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1398,7 +1398,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1447,7 +1447,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1496,7 +1496,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1545,7 +1545,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
-      <Normal>BlueIconBackground</Normal>
+      <Normal>BlackPixel</Normal>
       <NormalDecal>BuffIcons</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
@@ -1594,7 +1594,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>true</Style_Transparent>
     <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_Def</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>

@@ -3,7 +3,7 @@
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Listbox item="SKSW_SkillSelectorList">
     <ScreenID>SKSW_SkillSelectorList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -43,7 +43,7 @@
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <Text>Choose a skill</Text>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>true</Style_Minimizebox>

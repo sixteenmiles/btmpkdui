@@ -31,12 +31,10 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>7</EQType>
     <GaugeDrawTemplate>
-      <Background>A_GaugeBackground</Background>
-      <Fill>A_GaugeFill</Fill>
-      <Lines>A_GaugeLines</Lines>
-      <LinesFill>A_GaugeLinesFill</LinesFill>
-      <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
     </GaugeDrawTemplate>
   </Gauge>
   <Label item="Casting_SpellName">
@@ -80,7 +78,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>true</Style_Transparent>
     <TooltipReference>The Breath Meter</TooltipReference>
-    <DrawTemplate>WDT_Filigree</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>

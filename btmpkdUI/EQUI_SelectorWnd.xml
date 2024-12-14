@@ -128,8 +128,8 @@
     <GaugeDrawTemplate>
       <Background>A_MiniGaugeBackground</Background>
       <Fill>A_MiniGaugeFill</Fill>
-      <!--<Lines>A_GaugeLines</Lines>
-      <LinesFill>A_GaugeLinesFill</LinesFill>-->
+      <!--<Lines>btmpkd_GaugeLines</Lines>
+      <LinesFill>btmpkd_GaugeLinesFill</LinesFill>-->
       <EndCapLeft>A_MiniGaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_MiniGaugeEndCapRight</EndCapRight>
     </GaugeDrawTemplate>
@@ -173,7 +173,7 @@
     <GaugeDrawTemplate>
       <Background>A_MiniGaugeBackground</Background>
       <Fill>A_MiniGaugeFill</Fill>
-      <!--<LinesFill>A_GaugeLinesFill</LinesFill>-->
+      <!--<LinesFill>btmpkd_GaugeLinesFill</LinesFill>-->
       <EndCapLeft>A_MiniGaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_MiniGaugeEndCapRight</EndCapRight>
     </GaugeDrawTemplate>
@@ -430,7 +430,7 @@
       <CY>30</CY>
     </Size>
     <Text>The Heroes' Journey</Text>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>False</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>

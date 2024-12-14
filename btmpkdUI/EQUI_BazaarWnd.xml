@@ -3,7 +3,7 @@
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <STMLbox item="BZW_BazaarText">
     <ScreenID>BZW_BazaarText</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_VScroll>true</Style_VScroll>
     <AutoStretch>true</AutoStretch>
@@ -3402,7 +3402,7 @@
     <Text>Bazaar Vendor</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>true</Style_Minimizebox>

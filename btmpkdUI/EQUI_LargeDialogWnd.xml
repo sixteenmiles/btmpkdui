@@ -6,7 +6,7 @@
   <!-- rather than quick, one- or two-liner Yes/No questions.-->
   <STMLbox item="LDW_TextBox">
     <ScreenID>LDW_TextBox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>

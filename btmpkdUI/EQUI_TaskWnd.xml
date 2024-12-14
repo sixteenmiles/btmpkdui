@@ -72,7 +72,7 @@
   </Label>
   <Listbox item="TASK_TaskList">
     <ScreenID>TASK_TaskList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <TopAnchorOffset>26</TopAnchorOffset>
@@ -112,7 +112,7 @@
     <MinVSize>62</MinVSize>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -220,7 +220,7 @@
   </Button>
   <Listbox item="TASK_TaskElementList">
     <ScreenID>TASK_TaskElementList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <TopAnchorOffset>26</TopAnchorOffset>
@@ -261,7 +261,7 @@
     <MinVSize>62</MinVSize>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -275,7 +275,7 @@
   </Screen>
   <STMLbox item="TASK_Description">
     <ScreenID>TASK_Description</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_VScroll>true</Style_VScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -293,7 +293,7 @@
   </STMLbox>
   <VerticalLayoutBox item="TASK_Layout">
     <ScreenID>TASK_Layout</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>
     <TopAnchorOffset>2</TopAnchorOffset>
@@ -369,7 +369,7 @@
   </Label>
   <Listbox item="QUEST_TaskList">
     <ScreenID>QUEST_TaskList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <TopAnchorOffset>26</TopAnchorOffset>
@@ -409,7 +409,7 @@
     <MinVSize>62</MinVSize>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -443,7 +443,7 @@
   </Label>
   <Listbox item="QUEST_TaskElementList">
     <ScreenID>QUEST_TaskElementList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <TopAnchorOffset>26</TopAnchorOffset>
@@ -483,7 +483,7 @@
     <MinVSize>62</MinVSize>
     <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>true</Style_Transparent>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -494,7 +494,7 @@
   </Screen>
   <VerticalLayoutBox item="QUEST_Layout">
     <ScreenID>QUEST_Layout</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>
     <TopAnchorOffset>2</TopAnchorOffset>
@@ -546,7 +546,7 @@
   <!-- Shared Task Members -->
   <Listbox item="STASK_MemberList">
     <ScreenID>STASK_MemberList</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>40</LeftAnchorOffset>
@@ -766,7 +766,7 @@
     <Text>Quest Journal</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

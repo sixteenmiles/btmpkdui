@@ -312,7 +312,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Socials Page</TooltipReference>
-    <DrawTemplate>WDT_Def</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TabIcon>A_SocialsTabIcon</TabIcon>
     <TabIconActive>A_SocialsTabActiveIcon</TabIconActive>
     <Pieces>ASP_SocialPageLeftButton</Pieces>
@@ -566,7 +566,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Main Page</TooltipReference>
-    <DrawTemplate>WDT_Def</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TabIcon>A_MainTabIcon</TabIcon>
     <TabIconActive>A_MainTabActiveIcon</TabIconActive>
     <Pieces>AMP_WhoButton</Pieces>
@@ -726,7 +726,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Combat Page</TooltipReference>
-    <DrawTemplate>WDT_Def</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TabIcon>A_CombatTabIcon</TabIcon>
     <TabIconActive>A_CombatTabActiveIcon</TabIconActive>
     <Pieces>ACP_MeleeAttackButton</Pieces>
@@ -873,7 +873,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Abilities Page</TooltipReference>
-    <DrawTemplate>WDT_Def</DrawTemplate>
+    <DrawTemplate>WDT_Standard</DrawTemplate>
     <TabIcon>A_AbilitiesTabIcon</TabIcon>
     <TabIconActive>A_AbilitiesTabActiveIcon</TabIconActive>
     <Pieces>AAP_FirstAbilityButton</Pieces>
@@ -901,8 +901,8 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
-    <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+    <TabBorderTemplate>StandardTabBorder</TabBorderTemplate>
+    <PageBorderTemplate>StandardPageBorder</PageBorderTemplate>
     <Pages>ActionsMainPage</Pages>
     <Pages>ActionsAbilitiesPage</Pages>
     <Pages>ActionsCombatPage</Pages>
@@ -922,7 +922,7 @@
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
-    <DrawTemplate>WDT_InnerSolid</DrawTemplate>
+    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>true</Style_Minimizebox>
