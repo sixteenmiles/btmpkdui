@@ -40,7 +40,7 @@ The pet window can handle displaying 3 pets simultaneously. Designed to be trans
 The map window is a *minimap*. It's designed to be open all the time and positioned in one of the four corners. It has nearly all of the default map functionality removed. The two buttons in the top right are height filter and reset map position. You can still look around the map by zooming in and out with mousewheel and dragging the map around. It's a very different experience from the default map.
 
 - The map window has a **dark background**. It's designed to be used with https://github.com/xackery/eq-darkmodemaps.
-- You will need to customise your player map arrow to change it from black to another colour of your choice. Do this by finding UI_CharacterName_thj.ini (where "CharacterName" is your character's name) in your THJ main install folder. Ctrl+f for MapVieewWnd and change the MyColor RGB values to an RGB colour that stands out better.
+- You will need to customise your player map arrow to change it from black to another colour of your choice. Do this by finding UI_CharacterName_thj.ini (where "CharacterName" is your character's name) in your THJ main install folder. Ctrl+f for MapViewWnd and change the MyColor RGB values to an RGB colour that stands out better.
 
 ## Chat Window
 
