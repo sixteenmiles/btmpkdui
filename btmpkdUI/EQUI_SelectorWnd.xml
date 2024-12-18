@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-  <Label item="CopyOfLabel">
+  <!--<Label item="CopyOfLabel">
     <ScreenID>A_ScreenID</ScreenID>
     <Font>3</Font>
     <Text>Imalabel</Text>
@@ -19,7 +19,7 @@
       <X>1561</X>
       <Y>12</Y>
     </Location>
-  </Label>
+  </Label>-->
   <Label item="SlashLabel">
     <ScreenID>A_ScreenID</ScreenID>
     <Font>3</Font>
