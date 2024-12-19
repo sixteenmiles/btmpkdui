@@ -1,6 +1,156 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+  <TextureInfo item="AttackIndicator.tga">
+		<Size>
+			<CX>200</CX>
+			<CY>34</CY>
+		</Size>
+	</TextureInfo>
+	<!--<Ui2DAnimation item="A_AttackIndicatorTop">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>AttackIndicator.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>200</CX>
+				<CY>3</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>-->
+	<!--<Ui2DAnimation item="A_AttackIndicatorBottom">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>AttackIndicator.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>31</Y>
+			</Location>
+			<Size>
+				<CX>200</CX>
+				<CY>3</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>-->
+	<Ui2DAnimation item="A_AttackIndicatorLeft">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>AttackIndicator.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>3</CX>
+				<CY>34</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!--<Ui2DAnimation item="A_AttackIndicatorRight">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>AttackIndicator.tga</Texture>
+			<Location>
+				<X>197</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>3</CX>
+				<CY>34</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>-->
+	<!--<Ui2DAnimation item="A_AttackIndicatorFill">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>AttackIndicator.tga</Texture>
+			<Location>
+				<X>3</X>
+				<Y>3</Y>
+			</Location>
+			<Size>
+				<CX>194</CX>
+				<CY>28</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>-->
+	<!--<StaticAnimation item="A_AttackIndicatorAnimTop">
+		<ScreenID>A_AttackIndicatorAnimTop</ScreenID>
+		<Animation>A_AttackIndicatorTop</Animation>
+		<AutoDraw>false</AutoDraw>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>3</BottomAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</StaticAnimation>-->
+	<!--<StaticAnimation item="A_AttackIndicatorAnimBottom">
+		<ScreenID>A_AttackIndicatorAnimBottom</ScreenID>
+		<Animation>A_AttackIndicatorBottom</Animation>
+		<AutoDraw>false</AutoDraw>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>3</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</StaticAnimation>-->
+	<StaticAnimation item="A_AttackIndicatorAnimLeft">
+		<ScreenID>A_AttackIndicatorAnimLeft</ScreenID>
+		<Animation>A_AttackIndicatorLeft</Animation>
+		<AutoDraw>false</AutoDraw>
+		<AutoStretch>false</AutoStretch>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>		
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+    <Size>
+      <CX>3</CX>
+      <CY>60</CY>
+    </Size>
+	</StaticAnimation>
+	<!--<StaticAnimation item="A_AttackIndicatorAnimRight">
+		<ScreenID>A_AttackIndicatorAnimRight</ScreenID>
+		<Animation>A_AttackIndicatorRight</Animation>
+		<AutoDraw>false</AutoDraw>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>3</TopAnchorOffset>
+		<BottomAnchorOffset>3</BottomAnchorOffset>
+		<LeftAnchorOffset>3</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</StaticAnimation>-->
+	<!--<StaticAnimation item="A_AttackIndicatorAnimFill">
+		<ScreenID>A_AttackIndicatorAnimFill</ScreenID>
+		<Animation>A_AttackIndicatorFill</Animation>
+		<AutoDraw>false</AutoDraw>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>3</LeftAnchorOffset>
+		<TopAnchorOffset>3</TopAnchorOffset>
+		<RightAnchorOffset>3</RightAnchorOffset>
+		<BottomAnchorOffset>3</BottomAnchorOffset>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</StaticAnimation>-->
+
   <Label item="Player_NameLabel">
     <Font>2</Font>
     <Text>Player</Text>
@@ -79,6 +229,48 @@
     </LinesFillTint>
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>1</EQType>
+    <GaugeDrawTemplate>
+      <Background>btmpkd_GaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <Gauge item="Player_O2">
+    <!--<Font>3</Font>-->
+    <TextColor>
+      <R>240</R>
+      <G>240</G>
+      <B>240</B>
+    </TextColor>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>20</CY>
+    </Size>
+    <TextOffsetX>-100</TextOffsetX>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <A>100</A>
+      <R>0</R>
+      <G>190</G>
+      <B>250</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>220</R>
+      <G>220</G>
+      <B>0</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>8</EQType>
     <GaugeDrawTemplate>
       <Background>btmpkd_GaugeBackground</Background>
       <Fill>btmpkd_GaugeFill</Fill>
@@ -449,5 +641,11 @@
     <Pieces>Player_Cast</Pieces>
     <Pieces>PlayerCastNameShadow</Pieces>
     <Pieces>PlayerCastName</Pieces>
+    <!--<Pieces>Player_O2</Pieces>-->
+    <!--<Pieces>A_AttackIndicatorAnimTop</Pieces>-->
+		<!--<Pieces>A_AttackIndicatorAnimBottom</Pieces>-->
+		<Pieces>A_AttackIndicatorAnimLeft</Pieces>
+		<!--<Pieces>A_AttackIndicatorAnimRight</Pieces>-->
+		<!--<Pieces>A_AttackIndicatorAnimFill</Pieces>-->
   </Screen>
 </XML>

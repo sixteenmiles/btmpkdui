@@ -6,11 +6,11 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>530</X>
-      <Y>220</Y>
+      <X>311</X>
+      <Y>407</Y>
     </Location>
     <Size>
-      <CX>70</CX>
+      <CX>55</CX>
       <CY>24</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
@@ -30,11 +30,11 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>530</X>
-      <Y>256</Y>
+      <X>368</X>
+      <Y>407</Y>
     </Location>
     <Size>
-      <CX>70</CX>
+      <CX>55</CX>
       <CY>24</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
@@ -123,11 +123,11 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>530</X>
-      <Y>442</Y>
+      <X>425</X>
+      <Y>407</Y>
     </Location>
     <Size>
-      <CX>70</CX>
+      <CX>55</CX>
       <CY>24</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
@@ -147,8 +147,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>503</X>
-      <Y>45</Y>
+      <X>118</X>
+      <Y>411</Y>
     </Location>
     <Size>
       <CX>20</CX>
@@ -160,8 +160,8 @@
     <!--<RadioGroup/>-->
     <Text>-</Text>
     <TextColor>
-      <R>255</R>
-      <G>255</G>
+      <R>220</R>
+      <G>150</G>
       <B>0</B>
     </TextColor>
     <Template>BDT_Normal</Template>
@@ -171,8 +171,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>585</X>
-      <Y>45</Y>
+      <X>177</X>
+      <Y>411</Y>
     </Location>
     <Size>
       <CX>20</CX>
@@ -184,8 +184,8 @@
     <!--<RadioGroup/>-->
     <Text>+</Text>
     <TextColor>
-      <R>255</R>
-      <G>255</G>
+      <R>220</R>
+      <G>150</G>
       <B>0</B>
     </TextColor>
     <Template>BDT_Normal</Template>
@@ -217,8 +217,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>529</X>
-      <Y>45</Y>
+      <X>126</X>
+      <Y>413</Y>
     </Location>
     <Size>
       <CX>60</CX>
@@ -239,29 +239,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>501</X>
-      <Y>74</Y>
+      <X>7</X>
+      <Y>415</Y>
     </Location>
     <Size>
-      <CX>108</CX>
-      <CY>30</CY>
+      <CX>106</CX>
+      <CY>11</CY>
     </Size>
-    <GaugeOffsetY>20</GaugeOffsetY>
+    <GaugeOffsetY>0</GaugeOffsetY>
     <Text>AA Exp</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
       <B>255</B>
     </TextColor>
-    <TextOffsetY>0</TextOffsetY>
+    <TextOffsetY>-100</TextOffsetY>
     <TextOffsetX>39</TextOffsetX>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <FillTint>
-      <R>240</R>
-      <G>240</G>
+      <R>220</R>
+      <G>150</G>
       <B>0</B>
     </FillTint>
     <LinesFillTint>
@@ -269,7 +269,7 @@
       <G>220</G>
       <B>220</B>
     </LinesFillTint>
-    <DrawLinesFill>true</DrawLinesFill>
+    <DrawLinesFill>False</DrawLinesFill>
     <EQType>5</EQType>
     <GaugeDrawTemplate>
       <Background>A_MiniGaugeBackground</Background>
@@ -284,22 +284,23 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>500</X>
-      <Y>155</Y>
+      <X>252</X>
+      <Y>413</Y>
     </Location>
     <Size>
-      <CX>90</CX>
+      <CX>82</CX>
       <CY>20</CY>
     </Size>
-    <Text>Assigned:</Text>
+    <Text>/</Text>
     <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
+      <R>240</R>
+      <G>240</G>
+      <B>240</B>
     </TextColor>
     <NoWrap>false</NoWrap>
-    <AlignCenter>false</AlignCenter>
-    <AlignLeft>true</AlignLeft>
+    <AlignCenter>True</AlignCenter>
+    <AlignLeft>false</AlignLeft>
+    <AlignRight>False</AlignRight>
   </Label>
   <Label item="AAW_TotalLabel">
     <ScreenID>TotalLabel</ScreenID>
@@ -328,8 +329,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>500</X>
-      <Y>125</Y>
+      <X>7</X>
+      <Y>410</Y>
     </Location>
     <Size>
       <CX>90</CX>
@@ -350,8 +351,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>490</X>
-      <Y>125</Y>
+      <X>511</X>
+      <Y>67</Y>
     </Location>
     <Size>
       <CX>90</CX>
@@ -372,8 +373,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>520</X>
-      <Y>155</Y>
+      <X>129</X>
+      <Y>427</Y>
     </Location>
     <Size>
       <CX>100</CX>
@@ -394,8 +395,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>570</X>
-      <Y>175</Y>
+      <X>259</X>
+      <Y>413</Y>
     </Location>
     <Size>
       <CX>50</CX>
@@ -409,15 +410,15 @@
     </TextColor>
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
-    <AlignRight>true</AlignRight>
+    <AlignRight>False</AlignRight>
   </Label>
   <Label item="AAW_CurrentCount">
     <ScreenID>CurrentCount</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>590</X>
-      <Y>125</Y>
+      <X>215</X>
+      <Y>413</Y>
     </Location>
     <Size>
       <CX>30</CX>
@@ -441,7 +442,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Location>
       <X>4</X>
-      <Y>324</Y>
+      <Y>271</Y>
     </Location>
     <Size>
       <CX>478</CX>
@@ -505,7 +506,7 @@
     </Location>
     <Size>
       <CX>478</CX>
-      <CY>296</CY>
+      <CY>246</CY>
     </Size>
   </Page>
   <Listbox item="AAW_ArchList">
@@ -563,7 +564,7 @@
     </Location>
     <Size>
       <CX>478</CX>
-      <CY>296</CY>
+      <CY>246</CY>
     </Size>
   </Page>
   <Listbox item="AAW_ClassList">
@@ -621,7 +622,7 @@
     </Location>
     <Size>
       <CX>478</CX>
-      <CY>296</CY>
+      <CY>246</CY>
     </Size>
   </Page>
   <Listbox item="AAW_SpecialList">
@@ -679,7 +680,7 @@
     </Location>
     <Size>
       <CX>478</CX>
-      <CY>296</CY>
+      <CY>246</CY>
     </Size>
   </Page>
   <TabBox item="AAW_Subwindows">
@@ -691,7 +692,7 @@
     </Location>
     <Size>
       <CX>480</CX>
-      <CY>320</CY>
+      <CY>270</CY>
     </Size>
     <TabBorderTemplate>StandardTabBorder</TabBorderTemplate>
     <PageBorderTemplate>StandardPageBorder</PageBorderTemplate>
@@ -705,7 +706,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>383</X>
-      <Y>327</Y>
+      <Y>276</Y>
     </Location>
     <Size>
       <CX>100</CX>
@@ -726,7 +727,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>383</X>
-      <Y>342</Y>
+      <Y>291</Y>
     </Location>
     <Size>
       <CX>100</CX>
@@ -748,7 +749,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
-      <Y>442</Y>
+      <Y>382</Y>
     </Location>
     <Size>
       <CX>85</CX>
@@ -771,7 +772,7 @@
     <DrawTemplate>WDT_Standard</DrawTemplate>
     <Location>
       <X>95</X>
-      <Y>442</Y>
+      <Y>382</Y>
     </Location>
     <Size>
       <CX>95</CX>
@@ -786,7 +787,7 @@
     <DrawTemplate>WDT_Standard</DrawTemplate>
     <Location>
       <X>195</X>
-      <Y>442</Y>
+      <Y>382</Y>
     </Location>
     <Size>
       <CX>125</CX>
@@ -801,7 +802,7 @@
     <DrawTemplate>WDT_Standard</DrawTemplate>
     <Location>
       <X>325</X>
-      <Y>442</Y>
+      <Y>382</Y>
     </Location>
     <Size>
       <CX>95</CX>
@@ -817,7 +818,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>425</X>
-      <Y>442</Y>
+      <Y>382</Y>
     </Location>
     <Size>
       <CX>55</CX>
@@ -843,8 +844,8 @@
       <Y>10</Y>
     </Location>
     <Size>
-      <CX>640</CX>
-      <CY>496</CY>
+      <CX>484</CX>
+      <CY>435</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -861,20 +862,14 @@
     <Pieces>AAW_Subwindows</Pieces>
     <Pieces>AAW_Description</Pieces>
     <Pieces>AAW_AssignedLabel</Pieces>
-    <Pieces>AAW_AssignedCount</Pieces>
-    <Pieces>AAW_TotalLabel</Pieces>
+    <!--<Pieces>AAW_AssignedCount</Pieces>-->
     <Pieces>AAW_TotalCount</Pieces>
-    <Pieces>AAW_CurrentLabel</Pieces>
-    <Pieces>AAW_MonsterLabel</Pieces>
+    <!--<Pieces>AAW_CurrentLabel</Pieces>-->
     <Pieces>AAW_CurrentCount</Pieces>
     <Pieces>AAW_ExpGauge</Pieces>
     <Pieces>AAW_TrainButton</Pieces>
     <Pieces>AAW_HotButton</Pieces>
-    <Pieces>AAW_LoadSaveLabel</Pieces>
-    <Pieces>AAW_LoadButton</Pieces>
-    <Pieces>AAW_SaveButton</Pieces>
     <Pieces>AAW_DoneButton</Pieces>
-    <Pieces>AAW_PercentLabel</Pieces>
     <Pieces>AAW_PercentCount</Pieces>
     <Pieces>AAW_LessExpButton</Pieces>
     <Pieces>AAW_MoreExpButton</Pieces>

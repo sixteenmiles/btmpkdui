@@ -1,42 +1,88 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-  <Gauge item="BREATH_Gauge">
-    <ScreenID>Gauge</ScreenID>
-    <!--<Font>3</Font>-->
+  <Gauge item="Player_Breath">
+    <ScreenID>Player_Breath</ScreenID>
     <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>1</X>
-      <Y>1</Y>
-    </Location>
-    <Size>
-      <CX>108</CX>
-      <CY>30</CY>
-    </Size>
     <GaugeOffsetY>0</GaugeOffsetY>
-    <Style_VScroll>false</Style_VScroll>
-    <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>True</Style_Transparent>
-    <!--<TooltipReference/>-->
     <FillTint>
       <R>0</R>
-      <G>240</G>
-      <B>240</B>
+      <G>165</G>
+      <B>100</B>
     </FillTint>
-    <LinesFillTint>
+    <EQType>8</EQType>
+    <GaugeDrawTemplate>
+      <Background>btmpkd_GaugeBackgroundSmall</Background>
+      <Fill>btmpkd_GaugeFillSmall</Fill>
+      <!--<Lines>btmpkd_GaugeLines</Lines>
+	  <LinesFill>btmpkd_GaugeLinesFill</LinesFill>-->
+      <EndCapLeft>btmpkd_GaugeEndCapLeftSmall</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRightSmall</EndCapRight>
+    </GaugeDrawTemplate>
+    <Size>
+      <CX>200</CX>
+      <CY>7</CY>
+    </Size>
+    <Location>
+      <X>3</X>
+      <Y>13</Y>
+    </Location>
+  </Gauge>
+  <Label item="Player_BreathLabel">
+    <ScreenID>Player_BreathLabel</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Text>Drowning in...</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignLeft>true</AlignLeft>
+    <AutoStretch>False</AutoStretch>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Style_Tooltip>false</Style_Tooltip>
+    <Size>
+      <CX>200</CX>
+      <CY>11</CY>
+    </Size>
+    <Location>
+      <X>9</X>
+      <Y>0</Y>
+    </Location>
+    <Style_Border>True</Style_Border>
+  </Label>
+  <Label item="Player_BreathLabelShadow">
+    <ScreenID>Player_BreathLabelShadow</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Text>Drowning in...</Text>
+    <TextColor>
       <R>0</R>
       <G>0</G>
       <B>0</B>
-    </LinesFillTint>
-    <DrawLinesFill>false</DrawLinesFill>
-    <EQType>8</EQType>
-    <GaugeDrawTemplate>
-      <Background>A_MiniGaugeBackground</Background>
-      <Fill>A_MiniGaugeFill</Fill>
-      <EndCapLeft>A_MiniGaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_MiniGaugeEndCapRight</EndCapRight>
-    </GaugeDrawTemplate>
-  </Gauge>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignLeft>true</AlignLeft>
+    <AutoStretch>False</AutoStretch>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Style_Tooltip>false</Style_Tooltip>
+    <Size>
+      <CX>200</CX>
+      <CY>11</CY>
+    </Size>
+    <Location>
+      <X>10</X>
+      <Y>1</Y>
+    </Location>
+  </Label>
   <Screen item="BreathWindow">
     <!--<ScreenID/>-->
     <!--<Font/>-->
@@ -46,21 +92,23 @@
       <Y>50</Y>
     </Location>
     <Size>
-      <CX>112</CX>
-      <CY>27</CY>
+      <CX>205</CX>
+      <CY>23</CY>
     </Size>
     <Text>Air Remaining</Text>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>false</Style_Transparent>
+    <Style_Transparent>true</Style_Transparent>
     <TooltipReference>The Breath Meter</TooltipReference>
     <DrawTemplate>WDT_Standard</DrawTemplate>
-    <Style_Titlebar>true</Style_Titlebar>
+    <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
-    <Style_Border>true</Style_Border>
+    <Style_Border>false</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Escapable>false</Escapable>
-    <Pieces>BREATH_Gauge</Pieces>
+    <Pieces>Player_Breath</Pieces>
+    <Pieces>Player_BreathLabelShadow</Pieces>
+    <Pieces>Player_BreathLabel</Pieces>
   </Screen>
 </XML>

@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-  <!--<Label item="CopyOfLabel">
-    <ScreenID>A_ScreenID</ScreenID>
-    <Font>3</Font>
-    <Text>Imalabel</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <Size>
-      <CX>100</CX>
-      <CY>100</CY>
-    </Size>
-    <AlignCenter>true</AlignCenter>
-    <Location>
-      <X>1561</X>
-      <Y>12</Y>
-    </Location>
-  </Label>-->
+  
+  <Button item = "SELW_AAToggleButton">
+		<ScreenID>SELW_AAToggleButton</ScreenID>
+    <EQType>openwnd AAWindow</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>1520</X>
+			<Y>7</Y>
+		</Location>
+		<Size>
+			<CX>12</CX>
+			<CY>12</CY>
+		</Size>
+		<Style_Checkbox>false</Style_Checkbox>
+		<TooltipReference>Alternate Advancement</TooltipReference>
+		<ButtonDrawTemplate>
+			<Normal>A_MinimizeBtnNormal</Normal>
+      <Pressed>A_MinimizeBtnPressed</Pressed>
+      <Flyby>A_MinimizeBtnFlyby</Flyby>
+      <Disabled>A_MinimizeBtnDisabled</Disabled>
+      <PressedFlyby>A_MinimizeBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
   <Label item="SlashLabel">
     <ScreenID>A_ScreenID</ScreenID>
     <Font>3</Font>
@@ -441,5 +446,6 @@
     <Pieces>AAExp</Pieces>
     <Pieces>CurrentAAs</Pieces>
     <Pieces>AAExpGauge</Pieces>
+    <Pieces>SELW_AAToggleButton</Pieces>
   </Screen>
 </XML>
