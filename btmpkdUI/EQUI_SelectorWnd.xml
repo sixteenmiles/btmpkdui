@@ -1,51 +1,48 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-  
-  <Button item = "SELW_AAToggleButton">
-		<ScreenID>SELW_AAToggleButton</ScreenID>
+  <Button item="SELW_AAToggleButton">
+    <ScreenID>SELW_AAToggleButton</ScreenID>
     <EQType>openwnd AAWindow</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>1520</X>
-			<Y>7</Y>
-		</Location>
-		<Size>
-			<CX>12</CX>
-			<CY>12</CY>
-		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<TooltipReference>Alternate Advancement</TooltipReference>
-		<ButtonDrawTemplate>
-			<Normal>A_MinimizeBtnNormal</Normal>
-      <Pressed>A_MinimizeBtnPressed</Pressed>
-      <Flyby>A_MinimizeBtnFlyby</Flyby>
-      <Disabled>A_MinimizeBtnDisabled</Disabled>
-      <PressedFlyby>A_MinimizeBtnPressedFlyby</PressedFlyby>
-		</ButtonDrawTemplate>
-	</Button>
-
-  <Label item="SlashLabel">
-    <ScreenID>A_ScreenID</ScreenID>
-    <Font>3</Font>
-    <Text>/</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <Size>
-      <CX>100</CX>
-      <CY>100</CY>
-    </Size>
-    <AlignCenter>true</AlignCenter>
-    <Location>
-      <X>1151</X>
-      <Y>16</Y>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <TopAnchorOffset>5</TopAnchorOffset>
+    <BottomAnchorOffset>25</BottomAnchorOffset>
+    <RightAnchorOffset>170</RightAnchorOffset>
+    <LeftAnchorOffset>150</LeftAnchorOffset>
+    <!--<Location>
+      <X>1520</X>
+      <Y>7</Y>
     </Location>
-  </Label>
+    <Size>
+      <CX>12</CX>
+      <CY>12</CY>
+    </Size>-->
+    <Style_Checkbox>false</Style_Checkbox>
+    <TooltipReference>Alternate Advancement</TooltipReference>
+    <ButtonDrawTemplate>
+      <Normal>SEL_AABtnNormal</Normal>
+      <Pressed>SEL_AABtnHover</Pressed>
+      <Flyby>SEL_AABtnHover</Flyby>
+      <Disabled>SEL_AABtnNormal</Disabled>
+      <PressedFlyby>SEL_AABtnHover</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
   <Label item="CurrentAAs">
     <ScreenID>A_ScreenID</ScreenID>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <TopAnchorOffset>6</TopAnchorOffset>
+    <BottomAnchorOffset>19</BottomAnchorOffset>
+    <RightAnchorOffset>8</RightAnchorOffset>
+    <LeftAnchorOffset>28</LeftAnchorOffset>
     <Font>3</Font>
     <Text>9999</Text>
     <TextColor>
@@ -53,38 +50,56 @@
       <G>150</G>
       <B>0</B>
     </TextColor>
-    <Size>
+    <AlignRight>true</AlignRight>
+    <!--<Size>
       <CX>100</CX>
-      <CY>100</CY>
+      <CY>11</CY>
     </Size>
-    <AlignCenter>true</AlignCenter>
     <Location>
       <X>1649</X>
       <Y>5</Y>
-    </Location>
+    </Location>-->
     <EQType>71</EQType>
   </Label>
   <Label item="AAExp">
     <ScreenID>A_ScreenID</ScreenID>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <TopAnchorOffset>6</TopAnchorOffset>
+    <BottomAnchorOffset>19</BottomAnchorOffset>
+    <RightAnchorOffset>140</RightAnchorOffset>
+    <LeftAnchorOffset>160</LeftAnchorOffset>
     <Font>3</Font>
-    <Text>AAs:</Text>
+    <Text>AA:</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
       <B>255</B>
     </TextColor>
-    <Size>
+    <AlignCenter>False</AlignCenter>
+    <!--<Size>
       <CX>100</CX>
       <CY>100</CY>
     </Size>
-    <AlignCenter>False</AlignCenter>
     <Location>
       <X>1534</X>
       <Y>5</Y>
-    </Location>
+    </Location>-->
   </Label>
   <Label item="ExpLabel">
     <ScreenID>A_ScreenID</ScreenID>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <TopAnchorOffset>6</TopAnchorOffset>
+    <BottomAnchorOffset>19</BottomAnchorOffset>
+    <RightAnchorOffset>296</RightAnchorOffset>
+    <LeftAnchorOffset>320</LeftAnchorOffset>
     <Font>3</Font>
     <Text>Exp:</Text>
     <TextColor>
@@ -92,27 +107,36 @@
       <G>255</G>
       <B>255</B>
     </TextColor>
-    <Size>
+    <AlignCenter>False</AlignCenter>
+    <!--<Size>
       <CX>100</CX>
       <CY>100</CY>
     </Size>
-    <AlignCenter>False</AlignCenter>
     <Location>
       <X>1756</X>
       <Y>5</Y>
-    </Location>
+    </Location>-->
   </Label>
   <Gauge item="ExpGauge">
     <ScreenID>ExpGauge</ScreenID>
     <RelativePosition>true</RelativePosition>
-    <Location>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <TopAnchorOffset>8</TopAnchorOffset>
+    <BottomAnchorOffset>19</BottomAnchorOffset>
+    <RightAnchorOffset>183</RightAnchorOffset>
+    <LeftAnchorOffset>291</LeftAnchorOffset>
+    <!--<Location>
       <X>1793</X>
       <Y>8</Y>
-    </Location>
-    <Size>
+    </Location>-->
+    <!--<Size>
       <CX>108</CX>
       <CY>11</CY>
-    </Size>
+    </Size>-->
     <GaugeOffsetY>0</GaugeOffsetY>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -143,14 +167,23 @@
     <ScreenID>AAExpGauge</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
-    <Location>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <TopAnchorOffset>8</TopAnchorOffset>
+    <BottomAnchorOffset>19</BottomAnchorOffset>
+    <RightAnchorOffset>30</RightAnchorOffset>
+    <LeftAnchorOffset>138</LeftAnchorOffset>
+    <!--<Location>
       <X>1569</X>
       <Y>8</Y>
-    </Location>
-    <Size>
+    </Location>-->
+    <!--<Size>
       <CX>108</CX>
       <CY>11</CY>
-    </Size>
+    </Size>-->
     <GaugeOffsetY>0</GaugeOffsetY>
     <TextColor>
       <R>255</R>
@@ -434,13 +467,12 @@
       <CX>1920</CX>
       <CY>30</CY>
     </Size>
-    <Text>The Heroes' Journey</Text>
-    <DrawTemplate>WDT_StandardSolid</DrawTemplate>
-    <Style_Titlebar>false</Style_Titlebar>
+    <DrawTemplate>WDT_SolidNoTitle</DrawTemplate>
+    <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>False</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
     <Style_Border>true</Style_Border>
-    <Style_Sizable>false</Style_Sizable>
+    <Style_Sizable>true</Style_Sizable>
     <Pieces>ExpLabel</Pieces>
     <Pieces>ExpGauge</Pieces>
     <Pieces>AAExp</Pieces>

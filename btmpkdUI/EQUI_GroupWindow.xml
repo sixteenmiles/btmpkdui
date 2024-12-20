@@ -78,7 +78,7 @@
       <G>255</G>
       <B>255</B>
     </TextColor>
-    <Template>BDT_Normal</Template>
+    <Template>BDT_SmallNormal</Template>
     <AutoStretch>False</AutoStretch>
     <TopAnchorOffset>0</TopAnchorOffset>
     <LeftAnchorOffset>0</LeftAnchorOffset>

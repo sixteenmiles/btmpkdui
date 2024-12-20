@@ -564,8 +564,8 @@
       <Y>22</Y>
     </Location>
     <Size>
-      <CX>394</CX>
-      <CY>373</CY>
+      <CX>372</CX>
+      <CY>333</CY>
     </Size>
   </Page>
   <Page item="MW_RecoveryPage">
@@ -590,8 +590,8 @@
       <Y>22</Y>
     </Location>
     <Size>
-      <CX>394</CX>
-      <CY>373</CY>
+      <CX>372</CX>
+      <CY>333</CY>
     </Size>
   </Page>
   <Page item="MW_MailPage">
@@ -616,8 +616,8 @@
       <Y>22</Y>
     </Location>
     <Size>
-      <CX>394</CX>
-      <CY>373</CY>
+      <CX>372</CX>
+      <CY>333</CY>
     </Size>
   </Page>
   <TabBox item="MW_MerchantSubwindows">
@@ -631,8 +631,8 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <TopAnchorOffset>20</TopAnchorOffset>
     <BottomAnchorOffset>75</BottomAnchorOffset>
-    <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
-    <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+    <TabBorderTemplate>FT_BlankTabBorder</TabBorderTemplate>
+    <PageBorderTemplate>FT_BlankPageBorder</PageBorderTemplate>
     <Pages>MW_PurchasePage</Pages>
     <Pages>MW_RecoveryPage</Pages>
     <Pages>MW_MailPage</Pages>
@@ -644,8 +644,8 @@
       <Y>25</Y>
     </Location>
     <Size>
-      <CX>398</CX>
-      <CY>505</CY>
+      <CX>410</CX>
+      <CY>410</CY>
     </Size>
     <Text>Merchant</Text>
     <Style_Transparent>false</Style_Transparent>
