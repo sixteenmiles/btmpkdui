@@ -46,6 +46,18 @@
       <Y>0</Y>
     </Location>
   </Gauge>
+  <StaticAnimation item = "TargetBarBG1">
+	<ScreenID>TargetBGGradient1</ScreenID>
+	<Location>
+      <X>0</X>
+      <Y>0</Y>
+    </Location>
+	<Size>
+      <CX>200</CX>
+      <CY>20</CY>
+    </Size>
+	<Animation>TargetBGGradient</Animation>
+  </StaticAnimation>
   <Label item="Target_Name">
     <ScreenID>HPLabel</ScreenID>
     <EQType>28</EQType>
@@ -301,6 +313,18 @@
       <Y>22</Y>
     </Location>
   </Gauge>
+  <StaticAnimation item = "TargetBarBG2">
+	<ScreenID>TargetBGGradient2</ScreenID>
+	<Location>
+      <X>0</X>
+      <Y>22</Y>
+    </Location>
+	<Size>
+      <CX>200</CX>
+      <CY>20</CY>
+    </Size>
+	<Animation>TargetBGGradient</Animation>
+  </StaticAnimation>
   <Label item="HoTT_HPLabel">
     <ScreenID>HoTT_HPLabel</ScreenID>
     <EQType>120</EQType>
@@ -1542,6 +1566,8 @@
     <Style_Border>false</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Escapable>false</Escapable>
+	<!--<Pieces>TargetBarBG1</Pieces>-->
+	<!--<Pieces>TargetBarBG2</Pieces>-->
     <Pieces>Target_HP</Pieces>
     <Pieces>Target_BuffWindow</Pieces>
     <Pieces>HoTT_HP</Pieces>

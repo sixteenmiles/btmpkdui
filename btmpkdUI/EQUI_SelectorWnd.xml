@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <Button item="SELW_StatsToggleButton">
+    <ScreenID>SELW_StatsToggleButton</ScreenID>
+    <EQType>openwnd MusicPlayerWnd</EQType>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <TopAnchorOffset>5</TopAnchorOffset>
+    <BottomAnchorOffset>25</BottomAnchorOffset>
+    <RightAnchorOffset>170</RightAnchorOffset>
+    <LeftAnchorOffset>150</LeftAnchorOffset>
+    <Style_Checkbox>false</Style_Checkbox>
+    <TooltipReference>Stats</TooltipReference>
+    <ButtonDrawTemplate>
+      <Normal>SEL_BtnNormal</Normal>
+      <Pressed>SEL_BtnHover</Pressed>
+      <Flyby>SEL_BtnHover</Flyby>
+      <Disabled>SEL_BtnNormal</Disabled>
+      <PressedFlyby>SEL_BtnHover</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Label item="LevelNum">
+    <ScreenID>LevelNum</ScreenID>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <TopAnchorOffset>9</TopAnchorOffset>
+    <BottomAnchorOffset>19</BottomAnchorOffset>
+    <RightAnchorOffset>170</RightAnchorOffset>
+    <LeftAnchorOffset>155</LeftAnchorOffset>
+    <Font>1</Font>
+    <Text>99</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <AlignCenter>True</AlignCenter>
+	<EQType>2</EQType>
+  </Label>
   <Button item="SELW_AAToggleButton">
     <ScreenID>SELW_AAToggleButton</ScreenID>
     <EQType>openwnd AAWindow</EQType>
@@ -12,8 +56,8 @@
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <TopAnchorOffset>5</TopAnchorOffset>
     <BottomAnchorOffset>25</BottomAnchorOffset>
-    <RightAnchorOffset>170</RightAnchorOffset>
-    <LeftAnchorOffset>150</LeftAnchorOffset>
+    <RightAnchorOffset>195</RightAnchorOffset>
+    <LeftAnchorOffset>175</LeftAnchorOffset>
     <!--<Location>
       <X>1520</X>
       <Y>7</Y>
@@ -478,6 +522,8 @@
     <Pieces>AAExp</Pieces>
     <Pieces>CurrentAAs</Pieces>
     <Pieces>AAExpGauge</Pieces>
+	<Pieces>LevelNum</Pieces>
     <Pieces>SELW_AAToggleButton</Pieces>
+	<Pieces>SELW_StatsToggleButton</Pieces>
   </Screen>
 </XML>

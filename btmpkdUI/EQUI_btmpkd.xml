@@ -38,6 +38,12 @@
       <CY>256</CY>
     </Size>
   </TextureInfo>
+  <TextureInfo item="compass.tga">
+    <Size>
+      <CX>256</CX>
+      <CY>64</CY>
+    </Size>
+  </TextureInfo>
 
   <!-- Black Pixel -->
   <Ui2DAnimation item="BlackPixel">
@@ -475,6 +481,44 @@
   </Ui2DAnimation>
 
   <!-- Selector Window Buttons-->
+  <Ui2DAnimation item="SEL_BtnNormal">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>btmpkd_bars.tga</Texture>
+      <Location>
+        <X>182</X>
+        <Y>90</Y>
+      </Location>
+      <Size>
+        <CX>20</CX>
+        <CY>20</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="SEL_BtnHover">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>btmpkd_bars.tga</Texture>
+      <Location>
+        <X>182</X>
+        <Y>111</Y>
+      </Location>
+      <Size>
+        <CX>20</CX>
+        <CY>20</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
   <Ui2DAnimation item="SEL_AABtnNormal">
     <Cycle>true</Cycle>
     <Frames>
@@ -592,6 +636,7 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
+  
   <!-- Small Gauge -->
   <Ui2DAnimation item="btmpkd_GaugeBackgroundSmall">
     <Cycle>true</Cycle>
@@ -669,6 +714,7 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
+  
   <!-- Mini Gauge -->
   <Ui2DAnimation item="A_MiniGaugeBackground">
     <Cycle>true</Cycle>
@@ -746,6 +792,67 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
+  
+  <Ui2DAnimation item="TargetBGGradient">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>btmpkd_bars.tga</Texture>
+      <Location>
+        <X>0</X>
+        <Y>65</Y>
+      </Location>
+      <Size>
+        <CX>200</CX>
+        <CY>20</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+
+  <!-- Compass -->
+<Ui2DAnimation item="CompassOverlay">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>compass.tga</Texture>
+      <Location>
+        <X>0</X>
+        <Y>24</Y>
+      </Location>
+      <Size>
+        <CX>98</CX>
+        <CY>24</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="CompassStrip">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>compass.tga</Texture>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <CX>180</CX>
+        <CY>24</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  
   
   <!-- Minimap Button Templates -->
   <ButtonDrawTemplate item="BDT_MiniMapReset">
