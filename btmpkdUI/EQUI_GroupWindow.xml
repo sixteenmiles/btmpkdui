@@ -9,7 +9,7 @@
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Select a player and click to invite into the group</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text>Invite</Text>
+    <Text>I</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -24,12 +24,12 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Font>2</Font>
     <Size>
-      <CX>48</CX>
-      <CY>24</CY>
+      <CX>20</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>131</Y>
+      <X>0</X>
+      <Y>0</Y>
     </Location>
     <LeftAnchorToLeft>True</LeftAnchorToLeft>
   </Button>
@@ -42,7 +42,7 @@
     <TooltipReference>Click to disband your target from the group</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_SmallNormal</Template>
-    <Text>Disband</Text>
+    <Text>X</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -56,23 +56,23 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Font>2</Font>
     <Size>
-      <CX>48</CX>
-      <CY>24</CY>
+      <CX>20</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>70</X>
-      <Y>131</Y>
+      <X>0</X>
+      <Y>23</Y>
     </Location>
   </Button>
   <Button item="GW_FollowButton">
     <ScreenID>FollowButton</ScreenID>
-    <RelativePosition>True</RelativePosition>
+    <RelativePosition>true</RelativePosition>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
-    <TooltipReference>Accept an invitation to group</TooltipReference>
+    <TooltipReference>Accept group invitation.</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text>Follow</Text>
+    <Text>F</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -81,20 +81,20 @@
     <Template>BDT_SmallNormal</Template>
     <AutoStretch>False</AutoStretch>
     <TopAnchorOffset>0</TopAnchorOffset>
-    <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <TopAnchorToTop>False</TopAnchorToTop>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <BottomAnchorOffset>0</BottomAnchorOffset>
     <Font>2</Font>
     <Size>
-      <CX>48</CX>
-      <CY>24</CY>
+      <CX>20</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>131</Y>
+      <X>0</X>
+      <Y>0</Y>
     </Location>
+    <LeftAnchorToLeft>True</LeftAnchorToLeft>
   </Button>
   <Button item="GW_DeclineButton">
     <ScreenID>DeclineButton</ScreenID>
@@ -105,7 +105,7 @@
     <TooltipReference>Refuse an invtitation to group</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_SmallNormal</Template>
-    <Text>Decline</Text>
+    <Text>X</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -120,12 +120,12 @@
     <BottomAnchorOffset>0</BottomAnchorOffset>
     <Font>2</Font>
     <Size>
-      <CX>48</CX>
-      <CY>24</CY>
+      <CX>20</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>70</X>
-      <Y>131</Y>
+      <X>0</X>
+      <Y>23</Y>
     </Location>
   </Button>
   <Gauge item="GW_Gauge1">
@@ -139,20 +139,20 @@
     <Size>
       <X>108</X>
       <Y>11</Y>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <FillTint>
-      <R>120</R>
-      <G>26</G>
-      <B>36</B>
+      <R>0</R>
+      <G>165</G>
+      <B>100</B>
     </FillTint>
     <EQType>11</EQType>
     <GaugeDrawTemplate>
-      <Fill>A_MiniGaugeFill</Fill>
-      <EndCapLeft>A_MiniGaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_MiniGaugeEndCapRight</EndCapRight>
-      <Background>A_MiniGaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>0</GaugeOffsetY>
     <TextOffsetY>-30</TextOffsetY>
@@ -162,8 +162,8 @@
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Location>
-      <X>10</X>
-      <Y>23</Y>
+      <X>25</X>
+      <Y>0</Y>
     </Location>
   </Gauge>
   <Gauge item="GW_Gauge2">
@@ -177,20 +177,20 @@
     <Size>
       <X>108</X>
       <Y>11</Y>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <FillTint>
-      <R>120</R>
-      <G>26</G>
-      <B>36</B>
+      <R>0</R>
+      <G>165</G>
+      <B>100</B>
     </FillTint>
     <EQType>12</EQType>
     <GaugeDrawTemplate>
-      <Fill>A_MiniGaugeFill</Fill>
-      <EndCapLeft>A_MiniGaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_MiniGaugeEndCapRight</EndCapRight>
-      <Background>A_MiniGaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>0</GaugeOffsetY>
     <TextOffsetY>-30</TextOffsetY>
@@ -200,8 +200,8 @@
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Location>
-      <X>10</X>
-      <Y>46</Y>
+      <X>25</X>
+      <Y>23</Y>
     </Location>
   </Gauge>
   <Gauge item="GW_Gauge3">
@@ -215,20 +215,20 @@
     <Size>
       <X>108</X>
       <Y>11</Y>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <FillTint>
-      <R>120</R>
-      <G>26</G>
-      <B>36</B>
+      <R>0</R>
+      <G>165</G>
+      <B>100</B>
     </FillTint>
     <EQType>13</EQType>
     <GaugeDrawTemplate>
-      <Fill>A_MiniGaugeFill</Fill>
-      <EndCapLeft>A_MiniGaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_MiniGaugeEndCapRight</EndCapRight>
-      <Background>A_MiniGaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>0</GaugeOffsetY>
     <TextOffsetY>-30</TextOffsetY>
@@ -238,8 +238,8 @@
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Location>
-      <X>10</X>
-      <Y>69</Y>
+      <X>25</X>
+      <Y>46</Y>
     </Location>
   </Gauge>
   <Gauge item="GW_Gauge4">
@@ -253,20 +253,20 @@
     <Size>
       <X>108</X>
       <Y>11</Y>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <FillTint>
-      <R>120</R>
-      <G>26</G>
-      <B>36</B>
+      <R>0</R>
+      <G>165</G>
+      <B>100</B>
     </FillTint>
     <EQType>14</EQType>
     <GaugeDrawTemplate>
-      <Fill>A_MiniGaugeFill</Fill>
-      <EndCapLeft>A_MiniGaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_MiniGaugeEndCapRight</EndCapRight>
-      <Background>A_MiniGaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>0</GaugeOffsetY>
     <TextOffsetY>-30</TextOffsetY>
@@ -276,8 +276,8 @@
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Location>
-      <X>10</X>
-      <Y>92</Y>
+      <X>25</X>
+      <Y>69</Y>
     </Location>
   </Gauge>
   <Gauge item="GW_Gauge5">
@@ -291,20 +291,20 @@
     <Size>
       <X>108</X>
       <Y>11</Y>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <FillTint>
-      <R>120</R>
-      <G>26</G>
-      <B>36</B>
+      <R>0</R>
+      <G>165</G>
+      <B>100</B>
     </FillTint>
     <EQType>15</EQType>
     <GaugeDrawTemplate>
-      <Fill>A_MiniGaugeFill</Fill>
-      <EndCapLeft>A_MiniGaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_MiniGaugeEndCapRight</EndCapRight>
-      <Background>A_MiniGaugeBackground</Background>
+      <Fill>btmpkd_GaugeFill</Fill>
+      <EndCapLeft>btmpkd_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>btmpkd_GaugeEndCapRight</EndCapRight>
+      <Background>btmpkd_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>0</GaugeOffsetY>
     <TextOffsetY>-30</TextOffsetY>
@@ -314,8 +314,8 @@
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Location>
-      <X>10</X>
-      <Y>115</Y>
+      <X>25</X>
+      <Y>92</Y>
     </Location>
   </Gauge>
   <Label item="GW_HPLabel1">
@@ -328,7 +328,7 @@
       <B>255</B>
     </TextColor>
     <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
+    <AlignCenter>False</AlignCenter>
     <Font>1</Font>
     <EQType>35</EQType>
     <AutoStretch>false</AutoStretch>
@@ -338,13 +338,14 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>23</Y>
+      <X>20</X>
+      <Y>4</Y>
     </Location>
+    <AlignRight>True</AlignRight>
   </Label>
   <Label item="GW_HPPercLabel1">
     <ScreenID>HPPercLabel1</ScreenID>
@@ -383,7 +384,7 @@
       <B>255</B>
     </TextColor>
     <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
+    <AlignCenter>False</AlignCenter>
     <Font>1</Font>
     <EQType>36</EQType>
     <AutoStretch>false</AutoStretch>
@@ -393,13 +394,14 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>46</Y>
+      <X>20</X>
+      <Y>27</Y>
     </Location>
+    <AlignRight>True</AlignRight>
   </Label>
   <Label item="GW_HPPercLabel2">
     <ScreenID>HPPercLabel2</ScreenID>
@@ -438,7 +440,7 @@
       <B>255</B>
     </TextColor>
     <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
+    <AlignCenter>False</AlignCenter>
     <Font>1</Font>
     <EQType>37</EQType>
     <AutoStretch>false</AutoStretch>
@@ -448,13 +450,14 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>69</Y>
+      <X>20</X>
+      <Y>50</Y>
     </Location>
+    <AlignRight>True</AlignRight>
   </Label>
   <Label item="GW_HPPercLabel3">
     <ScreenID>HPPercLabel3</ScreenID>
@@ -493,7 +496,7 @@
       <B>255</B>
     </TextColor>
     <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
+    <AlignCenter>False</AlignCenter>
     <Font>1</Font>
     <EQType>38</EQType>
     <AutoStretch>false</AutoStretch>
@@ -503,13 +506,14 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>92</Y>
+      <X>20</X>
+      <Y>73</Y>
     </Location>
+    <AlignRight>True</AlignRight>
   </Label>
   <Label item="GW_HPPercLabel4">
     <ScreenID>HPPercLabel4</ScreenID>
@@ -548,7 +552,7 @@
       <B>255</B>
     </TextColor>
     <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
+    <AlignCenter>False</AlignCenter>
     <Font>1</Font>
     <EQType>39</EQType>
     <AutoStretch>false</AutoStretch>
@@ -558,13 +562,14 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>115</Y>
+      <X>20</X>
+      <Y>96</Y>
     </Location>
+    <AlignRight>True</AlignRight>
   </Label>
   <Label item="GW_HPPercLabel5">
     <ScreenID>HPPercLabel5</ScreenID>
@@ -613,12 +618,12 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>11</Y>
+      <X>30</X>
+      <Y>2</Y>
     </Location>
   </Label>
   <Label item="GW_Gname2">
@@ -641,12 +646,12 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>34</Y>
+      <X>30</X>
+      <Y>25</Y>
     </Location>
   </Label>
   <Label item="GW_Gname3">
@@ -669,12 +674,12 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>57</Y>
+      <X>30</X>
+      <Y>48</Y>
     </Location>
   </Label>
   <Label item="GW_Gname4">
@@ -697,12 +702,12 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>80</Y>
+      <X>30</X>
+      <Y>71</Y>
     </Location>
   </Label>
   <Label item="GW_Gname5">
@@ -725,12 +730,12 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
-      <CX>108</CX>
-      <CY>11</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <Location>
-      <X>10</X>
-      <Y>103</Y>
+      <X>30</X>
+      <Y>94</Y>
     </Location>
   </Label>
   <Screen item="GroupWindow">
@@ -741,8 +746,8 @@
       <Y>134</Y>
     </Location>
     <Size>
-      <CX>132</CX>
-      <CY>165</CY>
+      <CX>227</CX>
+      <CY>114</CY>
     </Size>
     <Text>Group</Text>
     <Style_VScroll>false</Style_VScroll>
@@ -755,22 +760,17 @@
     <Style_Border>true</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Escapable>false</Escapable>
-    <DrawTemplate>WDT_Standard</DrawTemplate>
+    <DrawTemplate>WDT_Transparent</DrawTemplate>
     <Pieces>GW_Gauge1</Pieces>
     <Pieces>GW_Gauge2</Pieces>
     <Pieces>GW_Gauge3</Pieces>
     <Pieces>GW_Gauge4</Pieces>
     <Pieces>GW_Gauge5</Pieces>
     <Pieces>GW_HPLabel1</Pieces>
-    <Pieces>GW_HPPercLabel1</Pieces>
     <Pieces>GW_HPLabel2</Pieces>
-    <Pieces>GW_HPPercLabel2</Pieces>
     <Pieces>GW_HPLabel3</Pieces>
-    <Pieces>GW_HPPercLabel3</Pieces>
     <Pieces>GW_HPLabel4</Pieces>
-    <Pieces>GW_HPPercLabel4</Pieces>
     <Pieces>GW_HPLabel5</Pieces>
-    <Pieces>GW_HPPercLabel5</Pieces>
     <Pieces>GW_InviteButton</Pieces>
     <Pieces>GW_DisbandButton</Pieces>
     <Pieces>GW_FollowButton</Pieces>
