@@ -143,8 +143,8 @@
       <CY>20</CY>
     </Size>
     <FillTint>
-      <R>0</R>
-      <G>165</G>
+      <R>255</R>
+      <G>100</G>
       <B>100</B>
     </FillTint>
     <EQType>11</EQType>
@@ -181,8 +181,8 @@
       <CY>20</CY>
     </Size>
     <FillTint>
-      <R>0</R>
-      <G>165</G>
+      <R>255</R>
+      <G>100</G>
       <B>100</B>
     </FillTint>
     <EQType>12</EQType>
@@ -219,8 +219,8 @@
       <CY>20</CY>
     </Size>
     <FillTint>
-      <R>0</R>
-      <G>165</G>
+      <R>255</R>
+      <G>100</G>
       <B>100</B>
     </FillTint>
     <EQType>13</EQType>
@@ -257,8 +257,8 @@
       <CY>20</CY>
     </Size>
     <FillTint>
-      <R>0</R>
-      <G>165</G>
+      <R>255</R>
+      <G>100</G>
       <B>100</B>
     </FillTint>
     <EQType>14</EQType>
@@ -295,8 +295,8 @@
       <CY>20</CY>
     </Size>
     <FillTint>
-      <R>0</R>
-      <G>165</G>
+      <R>255</R>
+      <G>100</G>
       <B>100</B>
     </FillTint>
     <EQType>15</EQType>
@@ -332,9 +332,9 @@
     <Font>1</Font>
     <EQType>35</EQType>
     <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>21</TopAnchorOffset>
-    <BottomAnchorOffset>33</BottomAnchorOffset>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
@@ -346,33 +346,6 @@
       <Y>4</Y>
     </Location>
     <AlignRight>True</AlignRight>
-  </Label>
-  <Label item="GW_HPPercLabel1">
-    <ScreenID>HPPercLabel1</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Text>%</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
-    <Font>1</Font>
-    <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>21</TopAnchorOffset>
-    <BottomAnchorOffset>33</BottomAnchorOffset>
-    <LeftAnchorOffset>48</LeftAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Style_Tooltip>false</Style_Tooltip>
-    <Size>
-      <CX>108</CX>
-      <CY>11</CY>
-    </Size>
-    <Location>
-      <X>20</X>
-      <Y>23</Y>
-    </Location>
   </Label>
   <Label item="GW_HPLabel2">
     <ScreenID>HPLabel2</ScreenID>
@@ -388,9 +361,9 @@
     <Font>1</Font>
     <EQType>36</EQType>
     <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>62</TopAnchorOffset>
-    <BottomAnchorOffset>74</BottomAnchorOffset>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
@@ -402,33 +375,6 @@
       <Y>27</Y>
     </Location>
     <AlignRight>True</AlignRight>
-  </Label>
-  <Label item="GW_HPPercLabel2">
-    <ScreenID>HPPercLabel2</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Text>%</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
-    <Font>1</Font>
-    <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>62</TopAnchorOffset>
-    <BottomAnchorOffset>74</BottomAnchorOffset>
-    <LeftAnchorOffset>48</LeftAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Style_Tooltip>false</Style_Tooltip>
-    <Size>
-      <CX>108</CX>
-      <CY>11</CY>
-    </Size>
-    <Location>
-      <X>20</X>
-      <Y>46</Y>
-    </Location>
   </Label>
   <Label item="GW_HPLabel3">
     <ScreenID>HPLabel3</ScreenID>
@@ -444,9 +390,9 @@
     <Font>1</Font>
     <EQType>37</EQType>
     <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>103</TopAnchorOffset>
-    <BottomAnchorOffset>115</BottomAnchorOffset>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
@@ -458,33 +404,6 @@
       <Y>50</Y>
     </Location>
     <AlignRight>True</AlignRight>
-  </Label>
-  <Label item="GW_HPPercLabel3">
-    <ScreenID>HPPercLabel3</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Text>%</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
-    <Font>1</Font>
-    <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>103</TopAnchorOffset>
-    <BottomAnchorOffset>115</BottomAnchorOffset>
-    <LeftAnchorOffset>48</LeftAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Style_Tooltip>false</Style_Tooltip>
-    <Size>
-      <CX>108</CX>
-      <CY>11</CY>
-    </Size>
-    <Location>
-      <X>20</X>
-      <Y>69</Y>
-    </Location>
   </Label>
   <Label item="GW_HPLabel4">
     <ScreenID>HPLabel4</ScreenID>
@@ -500,9 +419,9 @@
     <Font>1</Font>
     <EQType>38</EQType>
     <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>144</TopAnchorOffset>
-    <BottomAnchorOffset>156</BottomAnchorOffset>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
@@ -514,33 +433,6 @@
       <Y>73</Y>
     </Location>
     <AlignRight>True</AlignRight>
-  </Label>
-  <Label item="GW_HPPercLabel4">
-    <ScreenID>HPPercLabel4</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Text>%</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
-    <Font>1</Font>
-    <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>144</TopAnchorOffset>
-    <BottomAnchorOffset>156</BottomAnchorOffset>
-    <LeftAnchorOffset>48</LeftAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Style_Tooltip>false</Style_Tooltip>
-    <Size>
-      <CX>108</CX>
-      <CY>11</CY>
-    </Size>
-    <Location>
-      <X>20</X>
-      <Y>92</Y>
-    </Location>
   </Label>
   <Label item="GW_HPLabel5">
     <ScreenID>HPLabel5</ScreenID>
@@ -556,9 +448,9 @@
     <Font>1</Font>
     <EQType>39</EQType>
     <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>185</TopAnchorOffset>
-    <BottomAnchorOffset>197</BottomAnchorOffset>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Tooltip>false</Style_Tooltip>
     <Size>
@@ -570,33 +462,6 @@
       <Y>96</Y>
     </Location>
     <AlignRight>True</AlignRight>
-  </Label>
-  <Label item="GW_HPPercLabel5">
-    <ScreenID>HPPercLabel5</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Text>%</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
-    <Font>1</Font>
-    <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>185</TopAnchorOffset>
-    <BottomAnchorOffset>197</BottomAnchorOffset>
-    <LeftAnchorOffset>48</LeftAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Style_Tooltip>false</Style_Tooltip>
-    <Size>
-      <CX>108</CX>
-      <CY>11</CY>
-    </Size>
-    <Location>
-      <X>20</X>
-      <Y>115</Y>
-    </Location>
   </Label>
   <Label item="GW_Gname1">
     <ScreenID>Gname1</ScreenID>
