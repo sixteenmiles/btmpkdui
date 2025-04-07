@@ -189,21 +189,14 @@
       <CY>24</CY>
     </Size>
   </Label>
-  <ButtonDrawTemplate item="BDT_BookBtn">
-    <Normal>A_BookBtnNormal</Normal>
-    <Pressed>A_BookBtnPressed</Pressed>
-    <Flyby>A_BookBtnFlyby</Flyby>
-    <Disabled>A_BookBtnDisabled</Disabled>
-    <PressedFlyby>A_BookBtnPressedFlyby</PressedFlyby>
-  </ButtonDrawTemplate>
   <Button item="CSPW_SpellBookH">
     <ScreenID>CSPW_SpellBookH</ScreenID>
     <RelativePosition>true</RelativePosition>
     <TooltipReference>Opens and closes Your Spellbook</TooltipReference>
     <Style_Checkbox>true</Style_Checkbox>
-    <Template>BDT_BookBtn</Template>
+    <Template>BDT_BookBtnH</Template>
     <Size>
-      <CX>20</CX>
+      <CX>12</CX>
       <CY>22</CY>
     </Size>
     <Location>
@@ -216,10 +209,10 @@
     <RelativePosition>true</RelativePosition>
     <TooltipReference>Opens and closes Your Spellbook</TooltipReference>
     <Style_Checkbox>true</Style_Checkbox>
-    <Template>BDT_BookBtn</Template>
+    <Template>BDT_BookBtnV</Template>
     <Size>
-      <CX>20</CX>
-      <CY>22</CY>
+      <CX>22</CX>
+      <CY>12</CY>
     </Size>
     <Location>
       <X>1</X>
@@ -355,11 +348,11 @@
     <Text>Spells</Text>
     <Style_Transparent>true</Style_Transparent>
     <TooltipReference>Allows you to cast your memorized spells</TooltipReference>
-    <DrawTemplate>WDT_Standard</DrawTemplate>
+    <DrawTemplate>WDT_Borderless</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
-    <Style_Border>false</Style_Border>
+    <Style_Border>true</Style_Border>
     <Style_Sizable>true</Style_Sizable>
     <Style_ClientMovable>true</Style_ClientMovable>
     <Escapable>false</Escapable>

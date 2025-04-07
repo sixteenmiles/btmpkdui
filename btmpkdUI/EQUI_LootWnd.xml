@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
   <Label item="LW_CorpseName">
     <ScreenID>LW_CorpseName</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>0</X>
-      <Y>1</Y>
+      <X>5</X>
+      <Y>5</Y>
     </Location>
     <Size>
-      <CX>100</CX>
+      <CX>200</CX>
       <CY>40</CY>
     </Size>
     <Text>Blahblahblah's Corpse</Text>
@@ -28,24 +29,42 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>10</X>
-      <Y>42</Y>
+      <X>5</X>
+      <Y>21</Y>
     </Location>
     <Size>
-      <CX>80</CX>
+      <CX>200</CX>
       <CY>24</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
-    <Text>Link all</Text>
+    <Text>Link</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
       <B>255</B>
     </TextColor>
-    <Template>BDT_BigNormal</Template>
+    <UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+    <MouseoverColor>
+      <R>204</R>
+      <G>80</G>
+      <B>55</B>
+    </MouseoverColor>
+    <UseCustomPressedColor>true</UseCustomPressedColor>
+    <PressedColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </PressedColor>
+    <UseCustomDisabledColor>true</UseCustomDisabledColor>
+    <DisabledColor>
+      <R>40</R>
+      <G>40</G>
+      <B>40</B>
+    </DisabledColor>
+    <Template>BDT_btmpkd</Template>
   </Button>
   <InvSlot item="LW_LootSlot0">
     <ScreenID>LW_LootSlot0</ScreenID>
@@ -67,7 +86,7 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
+      <X>45</X>
       <Y>0</Y>
     </Location>
     <Size>
@@ -82,8 +101,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>40</Y>
+      <X>85</X>
+      <Y>0</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -97,8 +116,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>40</Y>
+      <X>125</X>
+      <Y>0</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -112,8 +131,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>80</Y>
+      <X>165</X>
+      <Y>0</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -127,8 +146,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>80</Y>
+      <X>5</X>
+      <Y>40</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -142,8 +161,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>120</Y>
+      <X>45</X>
+      <Y>40</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -157,8 +176,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>120</Y>
+      <X>85</X>
+      <Y>40</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -172,8 +191,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>160</Y>
+      <X>125</X>
+      <Y>40</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -187,8 +206,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>160</Y>
+      <X>165</X>
+      <Y>40</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -203,7 +222,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
-      <Y>200</Y>
+      <Y>80</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -217,8 +236,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>200</Y>
+      <X>45</X>
+      <Y>80</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -232,8 +251,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>240</Y>
+      <X>85</X>
+      <Y>80</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -247,8 +266,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>240</Y>
+      <X>125</X>
+      <Y>80</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -262,8 +281,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>280</Y>
+      <X>165</X>
+      <Y>80</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -277,8 +296,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>280</Y>
+      <X>5</X>
+      <Y>120</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -292,8 +311,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>320</Y>
+      <X>45</X>
+      <Y>120</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -307,8 +326,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>320</Y>
+      <X>85</X>
+      <Y>120</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -322,8 +341,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>360</Y>
+      <X>125</X>
+      <Y>120</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -337,8 +356,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>360</Y>
+      <X>165</X>
+      <Y>120</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -353,7 +372,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
-      <Y>400</Y>
+      <Y>160</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -367,8 +386,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>400</Y>
+      <X>45</X>
+      <Y>160</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -382,8 +401,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>440</Y>
+      <X>85</X>
+      <Y>160</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -397,8 +416,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>440</Y>
+      <X>125</X>
+      <Y>160</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -412,8 +431,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>480</Y>
+      <X>165</X>
+      <Y>160</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -427,8 +446,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>480</Y>
+      <X>5</X>
+      <Y>200</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -442,8 +461,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>520</Y>
+      <X>45</X>
+      <Y>200</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -457,8 +476,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>520</Y>
+      <X>85</X>
+      <Y>200</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -472,8 +491,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>560</Y>
+      <X>125</X>
+      <Y>200</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -487,8 +506,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>560</Y>
+      <X>165</X>
+      <Y>200</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -503,7 +522,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
-      <Y>600</Y>
+      <Y>240</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -517,8 +536,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>600</Y>
+      <X>45</X>
+      <Y>240</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -532,8 +551,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>640</Y>
+      <X>85</X>
+      <Y>240</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -547,8 +566,23 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>640</Y>
+      <X>125</X>
+      <Y>240</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 33</EQType>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot34">
+    <ScreenID>LW_LootSlot34</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>165</X>
+      <Y>240</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -561,14 +595,14 @@
     <ScreenID>LootInvWnd</ScreenID>
     <!--<Font/>-->
     <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
+    <AutoStretch>False</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
-    <TopAnchorOffset>68</TopAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <BottomAnchorOffset>56</BottomAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <Style_VScroll>true</Style_VScroll>
+    <Style_VScroll>false</Style_VScroll>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Standard</DrawTemplate>
@@ -606,16 +640,25 @@
     <Pieces>LW_LootSlot31</Pieces>
     <Pieces>LW_LootSlot32</Pieces>
     <Pieces>LW_LootSlot33</Pieces>
+    <Pieces>LW_LootSlot34</Pieces>
+    <Size>
+      <CX>220</CX>
+      <CY>282</CY>
+    </Size>
+    <Location>
+      <X>0</X>
+      <Y>47</Y>
+    </Location>
   </Screen>
   <Button item="LW_DoneButton">
     <ScreenID>DoneButton</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>2</LeftAnchorOffset>
-    <TopAnchorOffset>26</TopAnchorOffset>
-    <RightAnchorOffset>2</RightAnchorOffset>
-    <BottomAnchorOffset>2</BottomAnchorOffset>
+    <AutoStretch>False</AutoStretch>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <TopAnchorToTop>false</TopAnchorToTop>
@@ -623,23 +666,50 @@
     <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
-    <Text>Done</Text>
+    <Text>DONE</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
       <B>255</B>
     </TextColor>
-    <Template>BDT_BigNormal</Template>
+    <UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+    <MouseoverColor>
+      <R>205</R>
+      <G>80</G>
+      <B>55</B>
+    </MouseoverColor>
+    <UseCustomPressedColor>true</UseCustomPressedColor>
+    <PressedColor>
+      <R>190</R>
+      <G>65</G>
+      <B>40</B>
+    </PressedColor>
+    <UseCustomDisabledColor>true</UseCustomDisabledColor>
+    <DisabledColor>
+      <R>40</R>
+      <G>40</G>
+      <B>40</B>
+    </DisabledColor>
+    <Template>BDT_btmpkd</Template>
+    <Size>
+      <CX>98</CX>
+      <CY>20</CY>
+    </Size>
+    <Location>
+      <X>105</X>
+      <Y>330</Y>
+    </Location>
+    <Font>2</Font>
   </Button>
   <Button item="LW_LootAllButton">
     <ScreenID>LootAllButton</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>2</LeftAnchorOffset>
-    <TopAnchorOffset>52</TopAnchorOffset>
-    <RightAnchorOffset>2</RightAnchorOffset>
-    <BottomAnchorOffset>28</BottomAnchorOffset>
+    <AutoStretch>False</AutoStretch>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <TopAnchorToTop>false</TopAnchorToTop>
@@ -647,13 +717,40 @@
     <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
-    <Text>Loot All</Text>
+    <Text>LOOT</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
       <B>255</B>
     </TextColor>
-    <Template>BDT_BigNormal</Template>
+    <UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+    <MouseoverColor>
+      <R>204</R>
+      <G>80</G>
+      <B>55</B>
+    </MouseoverColor>
+    <UseCustomPressedColor>true</UseCustomPressedColor>
+    <PressedColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </PressedColor>
+    <UseCustomDisabledColor>true</UseCustomDisabledColor>
+    <DisabledColor>
+      <R>40</R>
+      <G>40</G>
+      <B>40</B>
+    </DisabledColor>
+    <Template>BDT_btmpkd</Template>
+    <Size>
+      <CX>98</CX>
+      <CY>20</CY>
+    </Size>
+    <Location>
+      <X>5</X>
+      <Y>330</Y>
+    </Location>
+    <Font>2</Font>
   </Button>
   <Screen item="LootWnd">
     <RelativePosition>false</RelativePosition>
@@ -662,12 +759,12 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_StandardSolid</DrawTemplate>
-    <Style_Titlebar>true</Style_Titlebar>
+    <Style_Titlebar>False</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
     <Style_Border>true</Style_Border>
-    <Style_Sizable>true</Style_Sizable>
+    <Style_Sizable>False</Style_Sizable>
     <Style_SizableBorderLeft>false</Style_SizableBorderLeft>
     <Style_SizableBorderRight>false</Style_SizableBorderRight>
     <Style_SizableBorderTopLeft>false</Style_SizableBorderTopLeft>
@@ -679,8 +776,8 @@
       <Y>25</Y>
     </Location>
     <Size>
-      <CX>120</CX>
-      <CY>420</CY>
+      <CX>212</CX>
+      <CY>360</CY>
     </Size>
     <Pieces>LW_CorpseName</Pieces>
     <Pieces>LW_LootInvWnd</Pieces>

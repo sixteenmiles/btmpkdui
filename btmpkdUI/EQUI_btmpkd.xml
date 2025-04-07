@@ -45,6 +45,55 @@
     </Size>
   </TextureInfo>
 
+  <!-- Generic Button -->
+  <ButtonDrawTemplate item="BDT_btmpkd">
+    <Normal>btmpkdBtn</Normal>
+    <Pressed>btmpkdBtnPressed</Pressed>
+    <Flyby>btmpkdBtn</Flyby>
+    <Disabled>btmpkdBtn</Disabled>
+    <PressedFlyby>btmpkdBtn</PressedFlyby>
+  </ButtonDrawTemplate>
+
+  <Ui2DAnimation item="btmpkdBtn">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>window_pieces01.tga</Texture>
+      <Location>
+        <X>241</X>
+        <Y>240</Y>
+      </Location>
+      <Size>
+        <CX>3</CX>
+        <CY>3</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+
+    <Ui2DAnimation item="btmpkdBtnPressed">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>window_pieces03.tga</Texture>
+      <Location>
+        <X>246</X>
+        <Y>240</Y>
+      </Location>
+      <Size>
+        <CX>3</CX>
+        <CY>3</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+
   <!-- Black Pixel -->
   <Ui2DAnimation item="BlackPixel">
     <Cycle>true</Cycle>
@@ -207,6 +256,96 @@
     </Frames>
   </Ui2DAnimation>
   
+  <Ui2DAnimation item="btmpkdBookBtnV">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>window_pieces01.tga</Texture>
+      <Location>
+        <X>181</X>
+        <Y>61</Y>
+      </Location>
+      <Size>
+        <CX>22</CX>
+        <CY>12</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="btmpkdBookBtnH">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>window_pieces01.tga</Texture>
+      <Location>
+        <X>181</X>
+        <Y>73</Y>
+      </Location>
+      <Size>
+        <CX>12</CX>
+        <CY>22</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="btmpkdBookBtnPressedV">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>window_pieces01.tga</Texture>
+      <Location>
+        <X>203</X>
+        <Y>61</Y>
+      </Location>
+      <Size>
+        <CX>22</CX>
+        <CY>12</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="btmpkdBookBtnPressedH">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>window_pieces01.tga</Texture>
+      <Location>
+        <X>193</X>
+        <Y>73</Y>
+      </Location>
+      <Size>
+        <CX>12</CX>
+        <CY>22</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <ButtonDrawTemplate item="BDT_BookBtnV">
+    <Normal>btmpkdBookBtnV</Normal>
+    <Pressed>btmpkdBookBtnPressedV</Pressed>
+    <Flyby>btmpkdBookBtnV</Flyby>
+    <Disabled>btmpkdBookBtnV</Disabled>
+    <PressedFlyby>btmpkdBookBtnPressedV</PressedFlyby>
+  </ButtonDrawTemplate>
+  <ButtonDrawTemplate item="BDT_BookBtnH">
+    <Normal>btmpkdBookBtnH</Normal>
+    <Pressed>btmpkdBookBtnPressedH</Pressed>
+    <Flyby>btmpkdBookBtnH</Flyby>
+    <Disabled>btmpkdBookBtnH</Disabled>
+    <PressedFlyby>btmpkdBookBtnPressedH</PressedFlyby>
+  </ButtonDrawTemplate>
   <Ui2DAnimation item="btmpkdSpellBookPageTurn">
     <Cycle>true</Cycle>
     <Frames>
