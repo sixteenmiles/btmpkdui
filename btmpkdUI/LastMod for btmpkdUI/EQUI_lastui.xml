@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  
+<!--
+This UI file requires pieces from PudUI and btmpkdUI
+-->
+  
+<!-- Main Window Title Bars (Replace btmpkdUI with PudUI)-->
+<!-- PudUI Titles (Comment out these sections from EQUI_btmpkd.xml)-->
+<!-- <Ui2DAnimation item="SolidTitle">
+	<Cycle>true</Cycle>
+	<Frames>
+		<Texture>pudui_wp_hud.png</Texture>
+		<Location>
+			<X>1</X>
+			<Y>491</Y>
+		</Location>
+		<Size>
+			<CX>3</CX>
+			<CY>16</CY>
+		</Size>
+		<Hotspot>
+			<X>0</X>
+			<Y>0</Y>
+		</Hotspot>
+		<Duration>1000</Duration>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="GripTitle">
+	<Cycle>true</Cycle>
+	<Frames>
+		<Texture>pudui_wp_hud.png</Texture>
+		<Location>
+			<X>1</X>
+			<Y>491</Y>
+		</Location>
+		<Size>
+			<CX>3</CX>
+			<CY>16</CY>
+		</Size>
+		<Hotspot>
+			<X>0</X>
+			<Y>0</Y>
+		</Hotspot>
+		<Duration>1000</Duration>
+	</Frames>
+</Ui2DAnimation> -->
+
+<!-- btmpkdUI Titles -->
+<!--   <Ui2DAnimation item="SolidTitle">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>btmpkd_bars.tga</Texture>
+      <Location>
+        <X>45</X>
+        <Y>192</Y>
+      </Location>
+      <Size>
+        <CX>4</CX>
+        <CY>11</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="GripTitle">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>btmpkd_bars.tga</Texture>
+      <Location>
+        <X>219</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <CX>4</CX>
+        <CY>11</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation> -->
+
+  <!-- Selector Window Buttons-->
+   <!-- AA Button --> 
+<!--   <Ui2DAnimation item="SEL_AABtnNormal">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>btmpkd_bars.tga</Texture>
+      <Location>
+        <X>203</X>
+        <Y>111</Y>
+      </Location>
+      <Size>
+        <CX>20</CX>
+        <CY>20</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  
+  <Ui2DAnimation item="SEL_AABtnHover">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>btmpkd_bars.tga</Texture>
+      <Location>
+        <X>203</X>
+        <Y>90</Y>
+      </Location>
+      <Size>
+        <CX>20</CX>
+        <CY>20</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation> -->
+
+<!-- Parcel Icon - Doesn't work outside of player window, womp womp -->
+<!-- 	<Ui2DAnimation item="LastUI_ParcelsIcon">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>230</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation> -->
+	
+<!-- Updated Selector Window Options Button -->
+	<Ui2DAnimation item="LastUI_OptionsBtnNormal">
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>52</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="LastUI_OptionsBtnFlyby">
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>52</X>
+				<Y>146</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="LastUI_OptionsBtnPressed">
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>52</X>
+				<Y>172</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="LastUI_OptionsBtnPressedFlyby">
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>52</X>
+				<Y>198</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+  
+  <!-- Tribute Buttons -->
+	<Ui2DAnimation item="LastUI_TributeBtnNormal">
+		<Frames>
+      <Texture>window_pieces02.tga</Texture>
+      <Location>
+        <X>26</X>
+        <Y>120</Y>
+      </Location>
+      <Size>
+        <CX>20</CX>
+        <CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="LastUI_TributeBtnFlyby">
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>26</X>
+				<Y>146</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="LastUI_TributeBtnPressed">
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>26</X>
+				<Y>172</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="LastUI_TributeBtnPressedFlyby">
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>26</X>
+				<Y>172</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+   <!-- Inventory Button -->
+	<Ui2DAnimation item="LastUI_InventoryBtnNormal">
+		<Frames>
+      <Texture>window_pieces02.tga</Texture>
+      <Location>
+        <X>0</X>
+        <Y>120</Y>
+      </Location>
+      <Size>
+        <CX>20</CX>
+        <CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="LastUI_InventoryBtnFlyby">
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>146</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="LastUI_InventoryBtnPressed">
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>172</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="LastUI_InventoryBtnPressedFlyby">
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>172</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+</XML>
